@@ -84,8 +84,9 @@
 .fadein {  opacity: 0;}
 
 .slideinright  {
-    margin-right: -500px;
+    margin-left: 500px;
     max-width:100%;
+    width: 100%;
   }
 
 .slideinleft {
@@ -145,6 +146,23 @@
     text-align: center;
     font-weight: 300;
     padding: 1% 5% 0% 5%;
+  }
+
+  .services { background-color: rgb(193, 210, 191);}
+  .services h2 {
+    color: #93a081;
+    text-align: center;
+    font-weight: 300;
+    padding: 1% 5% 0% 5%;
+
+  }
+
+  .packages h2 {
+    color: #cdb0a9;
+    text-align: center;
+    font-weight: 300;
+    padding: 1% 5% 0% 5%;
+
   }
   /* .bg-ourstory p {
     font-size: 2rem;
@@ -540,7 +558,8 @@
       font-weight: 500;
       background: white;
       font-family: 'Playfair Display', serif;
-      opacity: 80
+      opacity: 80;
+
     }
 
     button:hover {
@@ -553,34 +572,35 @@
       background-size: cover;
       background-repeat: no-repeat;
       border: 5px solid white;
-
   }
 
-  .bg-webdev {background-image: url('images/webdev.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: 5px solid white;
+  .bg-webdev {
+    background-image: url('images/webdev.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid white;
 }
 
-.bg-brand-partnerships  {background-image: url('images/brand-partnerships.jpg');
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-border: 5px solid white;
-}
+  .bg-brand-partnerships  {
+    background-image: url('images/brand-partnerships.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+  }
 
-.bg-creative-direction  {background-image: url('images/creative-direction.jpg');
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-border: 5px solid white;
+  .bg-creative-direction  {background-image: url('images/creative-direction.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid white;
 }
-.bg-corpbranding {background-image: url('images/corpbranding.jpg');
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-border: 5px solid white;
+  .bg-corpbranding {background-image: url('images/corpbranding.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid white;
 }
 
   .fixed {  background-attachment: fixed; }
@@ -974,6 +994,24 @@ min-height: 60vh;}
 
   .lovethekings img{max-height: 4.5rem;}
 
+  .slideinright  {
+      margin-left: 200px;
+      max-width:100%;
+      width: 100%;
+    }
+
+  .slideinleft {
+      margin-left: -200px;
+      max-width:100%;
+  }
+
+  .bg-content,
+  .bg-webdev,
+  .bg-brand-partnerships,
+  .bg-creative-direction,
+  .bg-corpbranding {
+    background-image: none;
+    border: none;}
 
   .aboutimg img {
     position: absolute;

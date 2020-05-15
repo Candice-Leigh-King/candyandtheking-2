@@ -68,7 +68,7 @@
 
 </head>
 
-<body>
+<body class="servicepage">
         <!-- header- -->
 
   <header class="grid fixed">
@@ -135,16 +135,22 @@
 <!-- -----------banner end----------- -->
 
 <!-- -----------text and grid --------------- -->
+<section class="grid services">
+  <div class="col-12 centered">
+    <h2 class="fadein">- Our Services -</h2>
+  </div>
+</section>
+<section id="ourservices" class="text-and-grid padded">
 
-<section id="ourservices" class="text-and-grid">
-  <div class="grid slideinleft padded">
 
-    <!-- ----------content creation ------ -->
-    <div class="col-5_sm-12 bg-content">
+    <!-- ----------web dev ------ -->
+    <div class="grid slideinleft">
+    <div class="col-5_sm-12 bg-webdev">
+      <img class= "desktop-hide" src="images/webdev.jpg" alt="#">
     </div>
     <div class="col-7_sm-12-middle padded">
-      <h3> Content Creation </h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<span id="dots">...</span> <span id= "more"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span>
+      <h3> Web Development</h3>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<span id="dots">...</span> <span id= "more"> Ut enim ad minim Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.lorem veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span>
       </p>
     <button type="button" id="read" onclick="read()">tell me more</button>
     <script type="text/javascript">
@@ -172,13 +178,14 @@
 
   </div>
 </div>
-<!-- ----------web development -->
-  <div class="grid padded slideinright flex-flip">
-    <div class="col-5_sm-12 bg-webdev">
+<!-- ---------content creator-->
+  <div class="grid slideinright flex-flip">
+    <div class="col-5_sm-12 bg-content">
+        <img class= "desktop-hide" src="images/content.jpg" alt="#">
     </div>
     <div class="col-7_sm-12-middle padded">
-      <h3> Web Development </h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<span id="webdev">...</span> <span id= "webdev3"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span>
+      <h3> Content Creation</h3>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<span id="webdev">...</span> <span id= "webdev3"> Ut Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span>
       </p>
     <button type="button" id="webdev2" onclick="webdev()">tell me more</button>
     <script type="text/javascript">
@@ -209,13 +216,13 @@
 
 
 <!-- --------brand partnerships------ -->
-<div class="grid padded slideinleft flex-flip">
+<div class="grid slideinleft flex-flip">
   <div class="col-5_sm-12 bg-brand-partnerships">
+        <img class= "desktop-hide" src="images/brand-partnerships.jpg" alt="#">
   </div>
     <div class="col-7_sm-12-middle padded">
-      <h4 class="subtle-heading"> An experience awaits </h4>
       <h3> Brand Partnerships</h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<span id="brand">...</span> <span id= "brand3"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<span id="brand">...</span> <span id= "brand3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span>
       </p>
     <button type="button" id="brand2" onclick="brand()">tell me more</button>
     <script type="text/javascript">
@@ -244,11 +251,11 @@
   </div>
 </div>
 <!-- ----------creative direction -->
-<div class="grid padded slideinright flex-flip">
+<div class="grid slideinright flex-flip">
 <div class="col-5_sm-12 bg-creative-direction">
+      <img class= "desktop-hide" src="images/creative-direction.jpg" alt="#">
 </div>
 <div class="col-7_sm-12-middle padded ">
-  <h4 class="subtle-heading"> Adventure with me </h4>
   <h3> Creative Direction </h3>
   <p> Where do you want to go with your brand and how do you get there?<span id="cd">...</span> <span id= "cd3"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span>
   </p>
@@ -280,11 +287,11 @@
 </div>
 
 <!-- --------Brand/Corporte Branding------ -->
-<div class="grid padded slideinleft flex-flip">
+<div class="grid slideinleft flex-flip">
   <div class="col-5_sm-12 bg-corpbranding">
+      <img class= "desktop-hide" src="images/corpbranding.jpg" alt="#">
   </div>
     <div class="col-7_sm-12-middle padded">
-      <h4 class="subtle-heading margin-right"> An experience awaits </h4>
       <h3> Brand/Corporate Branding</h3>
       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<span id="cb">...</span> <span id= "cb3"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span>
       </p>
@@ -320,9 +327,10 @@
   </div>
 </section>
 
-<section id="packages" class="light-bg centered padded">
+<section id="packages" class="light-bg packages centered">
   <h2> Packages </h2>
   <div class="grid padded-1">
+
 
     <div class="col-4_sm-12 padded-1">
       <div class="pricing card">
@@ -492,7 +500,7 @@
             $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if( bottom_of_window > bottom_of_element ){
-                $(this).animate({'margin-right':'0px'},2000);
+                $(this).animate({'margin-left':'0px'},2000);
             }
             });
           });
