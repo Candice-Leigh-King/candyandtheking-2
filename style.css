@@ -1,0 +1,1016 @@
+/*-----  CSS RESET  ------*/
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .hidden {display:none;}
+  html {
+    scroll-behavior: smooth; /* this enables smooth scrolling between internal links */
+  }
+
+  img {
+    max-width: 100%; /* this ensures images never break their container */
+    height: auto;
+  }
+
+  body {
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    color: #575757;
+  }
+
+
+   /* this overrides the default padding and margin on gridlex elements */
+  [class*=grid] {   margin: 0;  }
+  [class*=col]  {   padding: 0; }
+
+
+  /* ------------- Utility Classes --------------  */
+
+  .left     {  text-align: left;     }
+  .right    {  text-align: right;    }
+  .centered {  text-align: center;   }
+
+  .padded   {  padding: 5%;    }
+  .padded-1 {  padding: 1rem;  }
+  .padded-2 {  padding: 2rem;  }
+
+  .capped-width { width: 80%; margin: auto;}
+
+  .tall-50  {  min-height: 50vh;   }
+  .tall-100 {  min-height: 100vh;  }
+
+  .dark-bg      {  background-color: rgb(90, 90, 95);     }
+  .light-bg     {  background-color: #ecdfdc; }
+  .featured-bg  {  background-color: #ffdfc3;       }
+
+  .light-text   { color: white; }
+  .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
+
+
+  /* General typography */
+
+  h1 {
+    line-height: 0.9;
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    margin: 0.8%;
+    text-transform: lowercase;
+    font-size: 2rem;
+    color: white;
+  }
+  h3 {font-size: 2rem;
+  text-transform: lowercase;
+  font-weight: lighter;}
+
+  h4 {
+  font-size: 1rem;
+  font-weight: lighter;}
+
+  h5, h6 {
+  line-height: 0.5;
+  margin-bottom: 2rem;
+  font-family:'Roboto Condensed', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-align: center;}
+
+
+.fadein {  opacity: 0;}
+
+.slideinright  {
+    margin-right: -500px;
+    max-width:100%;
+  }
+
+.slideinleft {
+    margin-left: -500px;
+    max-width:100%;
+}
+
+
+
+
+  .bg-about h2 {
+    color: #00b8ba;
+    text-align: center;
+    font-weight: 300;
+
+    /* padding: 2.2% 5% 0% 5%; */
+
+
+  }
+
+  .bg-about p {
+    font-size: 2rem;
+    padding-top: 2%;
+    line-height: 170%;
+  }
+
+
+  .kings h3 {padding: 0%;
+  font-size: 2rem;}
+
+  .kings h4 {padding: 0%;
+  font-size: 0.5rem;}
+  /* .bg-about p {padding: 0.2% 5% 5% 5%; } */
+
+  .bg-meetus h2 {
+    color: #d2a99f;
+    text-align: center;
+    font-weight: 300;
+    padding: 1% 5% 0% 5%;
+    margin-bottom: 3%;
+  }
+
+
+  .bg-meetus h3 {margin-bottom: 3%;}
+
+  .bg-meetus img {
+    max-height: 2rem;
+    text-align: right;}
+
+    .bg-meetus .cam img {
+      max-height: 3rem;
+      text-align: right;}
+
+
+  .bg-ourstory h2 {
+    color: #93a081;
+    text-align: center;
+    font-weight: 300;
+    padding: 1% 5% 0% 5%;
+  }
+  /* .bg-ourstory p {
+    font-size: 2rem;
+    padding-top: 2%;
+    line-height: 170%;} */
+
+  .wave img {
+    max-height: 2rem;
+    padding: 0%;}
+
+  .lovethekings img{max-height: 4.5rem;}
+
+  .bg-gallery h2  {
+    color: rgb(222, 156, 114);
+    text-align: center;
+    font-weight: 300;
+    padding: 2% 5% 2% 5%;}
+
+    .bg-contact h2 {
+      color: white;
+      text-align: center;
+      font-weight: 300;
+    }
+    .bg-contact p {color: white;}
+
+    .fade-in-section {
+      opacity: 0;
+      transform: translateY(20vh);
+      visibility: hidden;
+      transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+      will-change: opacity, visibility;
+    }
+
+    .fade-in-section .is-visible {
+      opacity: 1;
+      transform: none;
+      visibility: visible;
+    }
+
+  h2  {
+      font-size: 5rem;
+      text-transform: lowercase;}
+
+  h3  { font-size: 1.8rem;  }
+  h4  { font-size: 1.4rem;  }
+  p   { font-size: 1rem;  }
+
+  p, ul {
+     margin-bottom: 0.8rem;
+  }
+
+  /* this makes sure that the last element in any container doesn't have margin-bottom */
+  h2:last-child,
+  h3:last-child,
+  h4:last-child,
+  h5:last-child,
+  h6:last-child,
+  p:last-child {
+    margin-bottom:0;
+  }
+
+
+  hr { /* this is a line element */
+    border: none;
+    border-bottom: 3px solid;
+    width: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+
+  }
+
+
+  /* ------- unique typography styles - adjust to suit your styles  --------- */
+  .logo img {
+    max-height: 4rem;
+    margin-top: 1.2rem;
+  }
+  .grow { transition: all .2s ease-in-out; }
+  .grow:hover { transform: scale(1.1); }
+
+  .not-bold   { font-weight: normal; } /* add this class to make headings not bold */
+  .no-bullets { list-style:none; } /* Used to remove dot-points from a list */
+
+  .big-bold {
+    font-size: 5.5rem;
+    font-weight: 700;
+  }
+
+  p.emphasis {   /* typically added to paragraphs to make them a little bigger, could be a different font or color also */
+    font-size: 1.2rem;
+  }
+
+  /* Icons */
+
+  .far {        /* default styles for font awesome icons */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .featured-stat {     /* styles for our featured statistic icons  */
+    font-size: 3rem;
+    color: #e67e22;
+    margin-bottom: 1rem;
+    display: block;
+  }
+
+  .highlight { /* this is applied to spans for out highlighted text. */
+    background-color: rgb(240, 240, 245);
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 2px;
+  }
+
+  .quote-icon {  /* You can also change the fonts for these icons specifically */
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  /* ---------------  Button Styles  --------- */
+  /* We have created lots of different button styles, you probably don't need to have quite this many styles depending on your site */
+
+  .button,
+  .button-solid,
+  .button-inverted {
+    text-decoration: none;
+    color: #d4adad;
+    border: 2px solid;
+    padding: 0.6rem 2rem;
+    margin-top: 1rem;
+    display: inline-block;
+    text-transform: lowercase;
+    font-size: 0.9rem;
+    font-weight: 500;
+    background: white;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .button:hover {
+    color: #abb8bf;
+  }
+
+  .button.inverted {   /* this is for a button on a dark background */
+    border: 2px solid white;
+    color: white;
+  }
+
+
+    footer a:hover {
+      color: #d4adad;
+
+    }
+
+
+  /* Headers and footers */
+
+
+
+  header a,
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 1rem;
+   font-family: 'Roboto Condensed', sans-serif;}
+
+    footer a {
+    text-decoration: none;
+    color: rgb(120,120,125);}
+
+    footer .social {
+      font-size: 1.5rem;
+      padding-left: 1%;
+      padding-right: 1%;}
+
+
+
+    footer
+    {padding-top: 2%;}
+
+  header nav a,
+  .inline a {
+    display: inline-block;
+
+  }
+  nav a:hover {
+    color: #abb8bf;
+  }
+
+
+
+  /* Dropdown Header */
+
+  header li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+  }
+
+  header li .dropdown-menu {
+    display: none;
+    padding: 1rem;
+    min-width: 12rem;
+  }
+
+  header li li {
+    display: block;
+  }
+
+  header .dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 2rem;
+    right: -1rem;
+    background-color: white;
+  }
+
+  /* Fixed Header Option */
+
+  header.fixed {
+    position: fixed;
+      background-color: #e6cec6;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 2;
+      margin: 0;
+        box-shadow: 2px 2px 2px #888888;
+      /* padding: 5%; */
+      text-align: center;
+      opacity: 70%;}
+
+  .bump-for-header {
+    min-height: 4rem;
+  }
+
+
+  /* Hamburger Menu */
+  .active {
+  color: white;
+  transform
+}
+
+  .page {
+    text-align: center;
+    }
+  .padded-top {padding-top: 3rem;}
+
+.hamburger {
+  position: fixed;
+  line-height: 0.5;
+  right: 2rem;
+  top: 2rem;
+  z-index: 3;
+  font-weight: 400;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.mobile-nav {
+  display: none;
+  position: fixed;
+  top: 0;
+  left:0;
+  right:0;
+  bottom: 0;
+  background-color: #b0ced4;
+  padding: 10%;
+  text-transform: uppercase;
+  opacity: 90%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.mobile-nav .nav-social {
+  font-family:"Playfair Display", serif;
+  font-size: 1rem;
+  padding: 2%;}
+
+.mobile-nav a  {
+  color: white;
+  padding: 1rem;
+  display: block;
+  text-decoration: none;
+}
+
+  /* -- Footer -- */
+
+  footer .info {
+    padding-right: 3rem;
+  }
+
+  footer nav a {
+    display:block;
+  }
+
+  footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+  }
+  .built p { font-size: 0.8rem;
+  margin-bottom: 0.2%;}
+
+  /* BANNERS */
+
+  .banner {
+    background-image: url('images/Banner-small.jpg');
+    background-size: cover;
+    background-position: bottom;
+    min-height: 92vh;
+    padding-top: 6rem;
+    margin: 5%;
+  }
+
+  .text-and-grid {
+    background-color: rgb(193, 210, 191);
+    margin-bottom: 5%;}
+
+  .service-banner {
+    background-image: url('images/abouts.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding-top: 6rem;
+    margin: 5%;
+  }
+
+  .service-banner h2 {
+    font-size: 4rem;
+    color: #d4adad;}
+
+    /* ---------------code to make the title fade in on page load */
+
+    #title {
+
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+
+  @keyframes fadein{
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  /* Firefox < 16 */
+  @-moz-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  /* Internet Explorer */
+  @-ms-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  /* Opera < 12.1 */
+  @-o-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+}
+
+/* ------------- code to make services display none */
+    #more {display: none;}
+    #webdev3 {display: none;}
+    #brand3 {display: none;}
+    #cd3 {display: none;}
+    #cb3 {display: none;}
+
+    /* --------------slide in- */
+
+
+    button {
+      text-decoration: none;
+      color: #d4adad;
+      border: 2px solid;
+      padding: 0.6rem 1rem;
+      margin-top: 1rem;
+      display: inline-block;
+      text-transform: lowercase;
+      font-size: 0.9rem;
+      font-weight: 500;
+      background: white;
+      font-family: 'Playfair Display', serif;
+      opacity: 80
+    }
+
+    button:hover {
+      color: #abb8bf;
+    }
+
+    .bg-content {
+      background-image: url('images/content.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border: 5px solid white;
+
+  }
+
+  .bg-webdev {background-image: url('images/webdev.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 5px solid white;
+}
+
+.bg-brand-partnerships  {background-image: url('images/brand-partnerships.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+border: 5px solid white;
+}
+
+.bg-creative-direction  {background-image: url('images/creative-direction.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+border: 5px solid white;
+}
+.bg-corpbranding {background-image: url('images/corpbranding.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+border: 5px solid white;
+}
+
+  .fixed {  background-attachment: fixed; }
+
+  .bg-about {
+    /* background-image: url('images/abouts.jpg'); */
+    background-color: rgb(205, 230, 236);
+    /* margin-top: 5rem; */
+    font-size: 5.5rem;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+  }
+
+  .bg-meetus {
+    background-image: url('images/meet-01-2.jpg');
+    background-color: #f5f5f5;
+    background-size: cover;
+    background-position: center;
+    min-height: 20rem;
+    background-attachment: fixed;
+    font-size: 5.5rem;
+    margin: 5%;}
+
+
+  .bg-ourstory {
+    background-color: rgb(193, 210, 191);
+    background-position: left;
+    min-height: auto;}
+
+  .by-gallery {margin-top: 5rem;}
+
+  /* Hover grid */
+
+  .hover-container {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hover-overlay {
+    position: relative;
+    padding-bottom: 100%;
+    color: rgba(255, 255, 255, 0);
+    position: relative;
+    /* you only need to use relative + absolute if you want to determine the exact aspect ratio of the container */
+    transition: all 0.3s;
+  }
+
+  .hover-overlay:hover {
+    background-color: rgba(60, 60, 60, 0.7);
+    color: white;
+  }
+
+  .hover-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .hover-inner p {
+    margin-bottom: 0;
+  }
+
+  /* Blog Post Elements */
+  /* ---- Blog loop elements style 1 ------ */
+  .blog-loop .blog-item {
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+    margin: 0;
+    display:block;
+  }
+
+  .blog-loop .bg-image {
+    padding-bottom: 60%;
+    margin-bottom: 0.5rem;
+  }
+
+  .blog-loop img,
+  .post-body img {
+      margin-bottom: 2vh;
+  }
+
+  /* ---- Blog loop elements style 2 ------ */
+  .blog-item-wide .bg-image {
+    padding-bottom: 30%;
+  }
+
+  .text-bump { /* selects every second one and reverses it */
+    margin-left: -2rem;
+    background-color: rgb(240,240,245);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .blog-item-wide:nth-child(odd) { /* selects every second one and reverses it */
+    flex-direction: row-reverse;
+  }
+
+
+
+
+  /* ---- Blog post pages ------ */
+  .post-body {
+    padding-right: 3%;
+  }
+
+  .post-meta {
+    font-size: 0.9rem;
+  }
+
+  .sidebar > div {
+    border: 1px solid rgb(245,245,245);
+    padding: 2rem;
+    margin: 2vh 0;
+  }
+
+  .category {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(90,90,95);
+    border: 1px solid rgb(90,90,95);
+    margin: 2px;
+    padding: 2px 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+  }
+
+  a.category:hover {
+    border-color: #1abc9c; /* featured color */
+    color: #1abc9c; /* featured color */
+  }
+
+  .social-share nav [class*=fa] {
+    padding: 0 1em 0 0;
+  }
+
+  .social-share hr{
+    margin: 3rem 0;
+  }
+
+  /* ----- FORMS --------------------------- */
+
+  input,
+  textarea {
+    border-style: solid;
+    border: 2px solid rgb(200, 200, 205);
+    padding: 0.8em;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    vertical-align: top;
+  }
+
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border: 2px solid #e67e22;
+    /* featured color */
+  }
+
+  textarea {
+    min-height: 7em;
+  }
+
+  input[type="submit"] {
+    width: auto;
+    display: block;
+  }
+
+  form [class*=col-] {
+    padding: 5px;
+  }
+
+  .email-signup input {
+    width: 30%;
+    display: inline-block;
+    max-width: 250px;
+    margin-top:1rem;
+  }
+
+  .email-signup .button-solid {
+    padding: 0.8em;
+    border-radius: 0;
+    font-size: 1rem;
+  }
+   form .button {
+     width:100%;
+   }
+
+   @media(max-width:768px) {
+     .email-signup input {
+       width: 100%;
+       max-width: 100%;
+     }
+   }
+
+  /* Testimomnials */
+
+  .card {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+
+  .profile {
+    max-width: 8rem;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+
+  .card .author {
+    font-weight: bold;
+    margin-bottom:0;
+  }
+
+  .card .company {
+    margin-bottom: 2rem;
+  }
+
+  /* clickable boxes */
+
+  .clickable-box {
+    color: inherit;
+    text-decoration: none;
+    box-shadow: 0 rgba(0, 0, 0, 0); /* so that we can add a transition */
+    transition: 0.2s all;
+    display: block;
+  }
+
+  .clickable-box .overlay {
+    min-height:10rem;
+    padding: 5rem 2rem;
+    background-color: rgba(0,0,10,0.6);
+    color: white;
+  }
+
+  .clickable-box p {
+    margin-bottom: 0;
+  }
+
+  .clickable-box:hover {
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 20px -5px rgba(0, 0, 0, 0.4);
+    margin-top:-2px;
+  }
+
+
+/* pop-up gallery */
+
+.popup-gallery .bg-image {
+  border: 2px solid white;
+}
+
+
+/* Masonry Gallery */
+
+.masonry { /* Masonry container */
+  column-count: 3;
+  column-gap: 1rem;
+}
+
+.masonry .item { /* Masonry bricks or child elements */
+  background-color: #eee;
+  display: inline-block;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+@media(max-width:767px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+@media(max-width:567px) {
+  .masonry {
+    column-count: 1;
+  }
+}
+
+/* pricing cards  */
+
+.card.featured {
+  border: 2px solid orange;
+}
+
+.price {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.pricing-name {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgb(120,120,125);
+}
+
+.card .button {
+  margin-top:2rem;
+}
+
+/* Responsive video */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container.vertical {
+  padding-bottom: 162.25%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Accordian slides */
+
+.accordion dt a {
+  padding: 0.25rem;
+  margin: 0.25rem 0;
+  display:block;
+  color: #e67e22;
+  position: relative;
+  text-decoration: none;
+}
+.accordion dd {
+  padding: 0.5rem;
+}
+
+/* Accordian Icon */
+.accordion dt a::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  line-height: 1;
+  text-align: center;
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s;
+}
+
+/* NEED DANIELs HELP to stop auto popping back open, and make the thing twist */
+.accordion dt a::after {
+  content: "+";
+}
+.open::after {
+  transform: rotateZ(45deg);
+}
+
+/* This media query kicks into action at the gridlex sm breakpoint */
+@media(max-width:768px) {
+
+.banner {margin: 0%;}
+
+.service-banner  h2 {font-size: 2rem;}
+.service-banner {background-position: left;
+min-height: 60vh;}
+/* . {margin: 5%} */
+  h1 {
+  font-size: 1.1rem; }
+
+  h2  { font-size: 2.8rem;  }
+
+  .bg-meetus h2 {  font-size: 2rem;}
+
+  h3 {font-size: 1.1rem;}
+
+  .bg-about p {font-size: 1.5rem;
+  padding: 1%;}
+
+  /* .bg-ourstory p {font-size: 1.5rem;
+  padding: 1%;} */
+
+  .lovethekings img{max-height: 4.5rem;}
+
+
+  .aboutimg img {
+    position: absolute;
+    max-height: 100hv;}
+
+  .mob-hide {
+    display: none;
+  }
+  .hamburger{
+    display: block;
+    position: fixed;
+  }
+
+  .blog-item-wide .bg-image{
+    padding-bottom: 60%;
+  }
+
+  #body .text-bump {
+    margin: -0.5rem;
+  }
+
+  .capped-width {
+    width: 100%;
+  }
+  .flex-flip{
+    flex-direction: row;
+  }
+
+footer .squiggle {margin-bottom: 5%;}
+} /* end media query */
+
+/* ---THIS IS A reverse QUERY */
+@media(min-width: 1024px)
+{
+  .desktop-hide {display: none;}
+}
+/* This media query kicks into action at the gridlex xs breakpoint */
+@media(max-width:576px) {
+
+} /* end media query */
