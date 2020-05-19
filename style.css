@@ -37,6 +37,7 @@
   .padded   {  padding: 5%;    }
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
+  .padded-large {padding: 2% 20%;}
 
   .capped-width { width: 80%; margin: auto;}
 
@@ -64,15 +65,20 @@
     font-size: 2rem;
     color: white;
   }
-  h3 {font-size: 2rem;
-  text-transform: lowercase;
-  font-weight: lighter;}
 
   h4 {
-  font-size: 1rem;
-  font-weight: lighter;}
+    font-size: 1rem;
+    font-weight: lighter;}
 
-  h5, h6 {
+  h5 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: 'Playfair Display', serif;
+    color: #cdb0a9;
+    margin-bottom: 3%;}
+
+  h6 {
   line-height: 0.5;
   margin-bottom: 2rem;
   font-family:'Roboto Condensed', sans-serif;
@@ -157,6 +163,17 @@
 
   }
 
+  .service-descriptions {
+    font-size: 1.3rem;
+    color: #697368;
+    margin-bottom: 2%; }
+
+  .influencer a {color: #697368;}
+
+  .influecner a:hover{
+   color: #d4adad;
+ }
+
   .packages h2 {
     color: #cdb0a9;
     text-align: center;
@@ -172,6 +189,9 @@
   .wave img {
     max-height: 2rem;
     padding: 0%;}
+
+  .freebie img {max-height: 4rem;
+  padding: 0%;}
 
   .lovethekings img{max-height: 4.5rem;}
 
@@ -206,7 +226,12 @@
       font-size: 5rem;
       text-transform: lowercase;}
 
-  h3  { font-size: 1.8rem;  }
+  h3  {
+      font-size: 1.8rem;
+      text-transform: lowercase;
+      font-weight: lighter;
+      }
+
   h4  { font-size: 1.4rem;  }
   p   { font-size: 1rem;  }
 
@@ -300,6 +325,19 @@
     font-family: 'Playfair Display', serif;
   }
 
+  .freebiebutton {
+    text-decoration: none;
+    color: #d4adad;
+    border: 2px solid;
+    padding: 0.6rem 2rem;
+    display: inline-block;
+    text-transform: lowercase;
+    font-size: 0.9rem;
+    font-weight: 500;
+    background: white;
+    font-family: 'Playfair Display', serif;
+    }
+
   .button:hover {
     color: #abb8bf;
   }
@@ -357,21 +395,11 @@
 
   /* Dropdown Header */
 
-  header li {
-    list-style: none;
-    display: inline-block;
-    position: relative;
-  }
-
-  header li .dropdown-menu {
-    display: none;
-    padding: 1rem;
-    min-width: 12rem;
-  }
-
-  header li li {
-    display: block;
-  }
+  li {
+    line-height: 1.6rem;
+    text-align: center;
+    text-transform: lowercase;
+    font-weight: bold;}
 
   header .dropdown:hover .dropdown-menu {
     display: block;
@@ -811,6 +839,13 @@
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
   }
 
+  .freebiecard {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  }}
+
   .profile {
     max-width: 8rem;
     border-radius: 100%;
@@ -854,49 +889,27 @@
   }
 
 
-/* pop-up gallery */
-
-.popup-gallery .bg-image {
-  border: 2px solid white;
-}
-
-
-/* Masonry Gallery */
-
-.masonry { /* Masonry container */
-  column-count: 3;
-  column-gap: 1rem;
-}
-
-.masonry .item { /* Masonry bricks or child elements */
-  background-color: #eee;
-  display: inline-block;
-  margin-bottom: 1rem;
-  width: 100%;
-}
-
-@media(max-width:767px) {
-  .masonry {
-    column-count: 2;
-  }
-}
-
-@media(max-width:567px) {
-  .masonry {
-    column-count: 1;
-  }
-}
-
 /* pricing cards  */
 
 .card.featured {
-  border: 2px solid orange;
+  border: 2px solid #d4adad;
 }
 
 .price {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 300;
+    color: #d4adad;
+    text-decoration: none;
+    border: 2px dotted;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+
+
+
+
 }
+.transparent {color: #57575700;}
+.price:hover {color: #abb8bf;}
 
 .pricing-name {
   text-transform: uppercase;
@@ -976,6 +989,7 @@
 .service-banner  h2 {font-size: 2rem;}
 .service-banner {background-position: left;
 min-height: 60vh;}
+
 /* . {margin: 5%} */
   h1 {
   font-size: 1.1rem; }
@@ -1013,9 +1027,17 @@ min-height: 60vh;}
     background-image: none;
     border: none;}
 
+  .servicepage h1 {line-height: 1.3rem;}
+  .servicepage .services h2 {font-size: 2.5rem;}
+  .servicepage h3 {font-size: 1.8rem;}
+  .servicepage .service-descriptions {font-size: 1.2rem;}
+
+  .padded-large {padding: 2% 5%;}
+
   .aboutimg img {
     position: absolute;
     max-height: 100hv;}
+
 
   .mob-hide {
     display: none;
