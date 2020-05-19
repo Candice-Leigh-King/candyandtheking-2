@@ -337,6 +337,17 @@
     background: white;
     font-family: 'Playfair Display', serif;
     }
+    .buttonform {
+      border-style: solid;
+    border: 2px solid rgb(200, 200, 205);
+    padding: 0.8em;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    vertical-align: top;
+    background-color: white;
+    color: #575757;
+      }
 
   .button:hover {
     color: #abb8bf;
@@ -790,7 +801,7 @@
   input:focus,
   textarea:focus {
     outline: none;
-    border: 2px solid #e67e22;
+    border: 2px solid #cde6ec;
     /* featured color */
   }
 
@@ -799,7 +810,7 @@
   }
 
   input[type="submit"] {
-    width: auto;
+
     display: block;
   }
 
