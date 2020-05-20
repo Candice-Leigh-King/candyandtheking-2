@@ -996,7 +996,7 @@
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
 
-  *{
+  body *{
     background-attachment: initial !important;
   }
 
