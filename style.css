@@ -523,7 +523,7 @@
     margin-bottom: 5%;}
 
   .service-banner {
-    /* background-image: url('images/abouts.jpg'); */
+    background-image: url('images/abouts.jpg');
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -645,7 +645,7 @@
   .fixed {  background-attachment: fixed; }
 
   .bg-about {
-    background-image: url('/images/abouts.jpg');
+    /* background-image: url('/images/abouts.jpg'); */
     background-color: rgb(205, 230, 236);
     /* margin-top: 5rem; */
     font-size: 5.5rem;
