@@ -4,6 +4,38 @@
 <head>
 
   <!-- Meta Data -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=CONTENT-CREATOR-WEBSTITE-DEVELOPMENT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'CONTENT-CREATOR-WEBSTITE-DEVELOPMENT');
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Ads: CONVERSION_ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=CONTENT-CREATOR-WEBSTITE-DEVELOPMENT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+
+    gtag('config', 'CONTENT-CREATOR-WEBSTITE-DEVELOPMENT');
+  </script>
+
+  <!-- Global site tag (gtag.js) - Floodlight -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=CONTENT-CREATOR-WEBSTITE-DEVELOPMENT"></script>
+  <script>
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+
+    gtag('config', 'CONTENT-CREATOR-WEBSTITE-DEVELOPMENT');
+  </script>
+
     <meta charset="utf-8">
 
     <!-- Meta data for SEO purposes. -->
@@ -20,6 +52,7 @@
 
     <!-- meta data to verify web with google-->
     <meta name="google-site-verification" content="OrXiqpLAYW66n20XsZIttR0LrQCm262zlzwy1tLRUYs" />
+
 
     <!-- link to browser icon tag -->
     <link rel="shortcut icon" type="image/png" href="/images/browser-icon-candy-and-the-king-01.png">
@@ -213,7 +246,7 @@
         <h2 class="desktop-hide fadein"> And I'm Candy King </h2>
         <h3 class="mob-hide fadein"> And I'm Candy King</h3>
 
-        <p class="fadein left"> I’m a creative. I know that sounds vague, but literally my mind runs at 100 miles an hour. I’m also a doer, so I bring many of those miles to life. Once I completed my BA in Brand Communications specialising in Copywriting, I ran towards adventure—I knew I wanted something different.   </p>
+        <p class="fadein left"> I’m a creative. I know that sounds vague, but literally my mind runs at 100 miles an hour. I’m also a doer, so I bring many of those miles to life. Once I completed my BA Degree in Brand Communications specialising in Copywriting, I ran towards adventure—I knew I wanted something different.   </p>
         <p class="fadein left">I feel most alive when I see others pursue their dreams, and if I can help with that—oh my gosh, yay!  So this is what I do to help people’s dreams come to life: I advise on brand building and management, but my absolute best is web development and that includes a whole lot of Jonty, GIF making, coding and design. Oh yeah, I know it's a lot, but like I said I’m a doer.   </p>
         <p class="fadein left">I have a romantic relationship with words, hence the degree in Copywriting. With this, I know the power of storytelling and how to teleport someone into an experience. So, I used this skill and wrote 4 books, publishing 3. One of them was even translated into Lao!  </p>
         <p class="fadein left"> Also, something irrelevant (but not), when I was younger I always wanted to be a mermaid, so when I am not busy creating you can find me in the water living my other life.</p>
@@ -275,26 +308,28 @@
 
   <!-- ------freebie -->
 
-  <section id= "freebie" class="light-bg grid freebie centered">
+  <section class="light-bg grid freebie centered">
   <div class="col-4_sm-12 padded-1 mob-hide"></div>
-  <div class="col-4-middle_sm-12 padded-1">
-    <div class="freebiecard freebie slideinleft fadein">
+  <div id= "freebie" class="col-4-middle_sm-12 padded-1">
+    <div class="freebiecard freebie slideinleft">
       <h5> Creating a Travel Lifestyle e-book <br><br>﹋</h5>
       <p> We wrote this charming e-book for you to easily download with one tap. It includes all of our secrets on how we've affored to travel for 5 years straight. </p>
       <h5><br>﹋</h5>
-        <p class="fadeslow"><img src="images/freebie-slow-arrow-down.gif"></p>
+        <p> <img src="images/freebie-slow-arrow-down.gif"></p>
+
+        <a href="e-book/creating-a-travel-lifestyle-teaching-edition-candy-and-the-king.pdf" download target="_blank" class="freebiebutton"> 1. Download Now </a>
 
         <form class="col-12-middle grid-center" action="https://formspree.io/hello@candyandtheking.com" method="POST">
 
           <div class="col-6_sm-6">
-            <input type="email" name="_replyto" placeholder="your email">
+            <input type="email" name="_replyto" placeholder="2. your email">
           </div>
 
           <div class="col-6_sm-6">
-            <input type="submit" value="click here" class="buttonform">
+            <input type="submit" value="3. click here" class="buttonform">
           </div>
 
-            <a href="e-book/creating-a-travel-lifestyle-teaching-edition-candy-and-the-king.pdf" download target="_blank" class="freebiebutton"> Download Now </a>
+
 
       </div>
     </div>
@@ -412,19 +447,6 @@
 
     <!-- -------- this fades in slowly  -->
 
-    <script>
-        $(document).ready(function() {
-            $(window).scroll( function(){
-              $('.fadeslow').each( function(i){
-                    var bottom_of_element = $(this).offset().top + $(this).outerHeight();
-                    var bottom_of_window = $(window).scrollTop() + $(window).height();
-                    if( bottom_of_window > bottom_of_element ){
-                      $(this).animate({'opacity':'1'},3000);
-                    }
-                });
-            });
-        });
-        </script>
 <!-- ------------slide in from left -->
 <script>
 $(document).ready(function() {
@@ -434,7 +456,7 @@ $(document).ready(function() {
         $(this).outerHeight();
         var bottom_of_window = $(window).scrollTop() + $(window).height();
         if( bottom_of_window > bottom_of_element_left ){
-            $(this).animate({'margin-left':'0px'},2000);
+            $(this).animate({'margin-left':'0px'},1000);
         }
       });
     });
