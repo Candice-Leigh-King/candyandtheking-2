@@ -13,7 +13,8 @@
 
   img {
     max-width: 100%; /* this ensures images never break their container */
-    height: auto;
+  object-fit: cover;
+  object-position: center;
   }
 
   body {
