@@ -481,7 +481,7 @@
 }
 .mobile-nav .nav-social {
   font-family:"Playfair Display", serif;
-  font-size: 1rem;
+  font-size: 0.7rem;
   padding: 2%;}
 
 .mobile-nav a  {
@@ -522,7 +522,7 @@
   .mob-img img {
     background-size: cover;
     background-position: center;
-    min-height: 70vh;}
+    min-height: 50vh;}
 
   .text-and-grid {
     background-color: rgb(193, 210, 191);
