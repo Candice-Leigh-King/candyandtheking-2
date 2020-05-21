@@ -1092,6 +1092,12 @@ footer .squiggle {margin-bottom: 5%;}
    h1 {
   font-size: 0.9rem; }
 
+  img {
+    max-width: 100%; /* this ensures images never break their container */
+    object-fit: cover;
+    object-position: center;
+  }
+
   .bg-meetus h2 {  font-size: 1.7rem;}
 
   .bg-about p {
