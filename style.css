@@ -519,7 +519,7 @@
     margin: 5%;
   }
 
-  .mob-img {
+  .mob-img img {
     background-size: cover;
     background-position: center;
     min-height: 92vh;}
