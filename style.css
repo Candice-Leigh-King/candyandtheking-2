@@ -522,7 +522,7 @@
   .mob-img img {
     background-size: cover;
     background-position: center;
-    min-height: 50vh;}
+    min-height: 50%;}
 
   .text-and-grid {
     background-color: rgb(193, 210, 191);
