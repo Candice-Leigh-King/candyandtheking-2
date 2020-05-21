@@ -519,6 +519,11 @@
     margin: 5%;
   }
 
+  .mob-img {
+    background-size: cover;
+    background-position: center;
+    min-height: 92vh;}
+
   .text-and-grid {
     background-color: rgb(193, 210, 191);
     margin-bottom: 5%;}
@@ -1091,12 +1096,6 @@ footer .squiggle {margin-bottom: 5%;}
 @media(max-width:576px) {
    h1 {
   font-size: 0.9rem; }
-
-  img {
-    max-width: 100%; /* this ensures images never break their container */
-    object-fit: cover;
-    object-position: center;
-  }
 
   .bg-meetus h2 {  font-size: 1.7rem;}
 
