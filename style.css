@@ -1002,9 +1002,9 @@
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
 
-  /* body *{
+  body *{
     background-attachment: initial !important;
-  } */
+  }
 
 .banner {margin: 0%;}
 
