@@ -534,7 +534,7 @@
   }
 
   .service-banner h2 {
-    font-size: 4rem;
+    font-size: 3.1rem;
     color: #d4adad;}
 
     /* ---------------code to make the title fade in on page load */
@@ -608,7 +608,7 @@
     }
 
     .bg-content {
-      background-image: url('images/content.jpg');
+      background-image: url('images/contentcreation2.jpg');
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -616,7 +616,7 @@
   }
 
   .bg-webdev {
-    background-image: url('images/webdev.jpg');
+    background-image: url('images/webdev2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -624,20 +624,20 @@
 }
 
   .bg-brand-partnerships  {
-    background-image: url('images/brand-partnerships.jpg');
+    background-image: url('images/brandpartnership-01.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border: 5px solid white;
   }
 
-  .bg-creative-direction  {background-image: url('images/creative-direction.jpg');
+  .bg-creative-direction  {background-image: url('images/creative2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border: 5px solid white;
 }
-  .bg-corpbranding {background-image: url('images/corpbranding.jpg');
+  .bg-corpbranding {background-image: url('images/mockup8.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1003,7 +1003,7 @@
 
 .banner {margin: 0%;}
 
-.service-banner  h2 {font-size: 2rem;}
+.service-banner  h2 {font-size: 1.8rem;}
 .service-banner {background-position: left;
 min-height: 60vh;}
 
@@ -1096,6 +1096,9 @@ footer .squiggle {margin-bottom: 5%;}
 
   .bg-about p {
     font-size: 1.2rem;
-    padding: 1%;
+    padding: 1%;}
+
+  .service-banner  h2 {font-size: 1.2rem;}
+  .service-banner  p{font-size: 0.9rem;}
 
 } /* end media query */
