@@ -21,6 +21,8 @@
     font-family: 'Playfair Display', serif;
     font-weight: 300;
     color: #575757;
+    width: 100vw;
+    overflow-x: hidden;
   }
 
 
