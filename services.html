@@ -61,11 +61,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
 
     <!-- iconify icons -->
-
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 
-    <!-- Magnific Popup for lightbox galleries   -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+    <!-- For slider reviews  -->
+    <link rel="stylesheet" href="slick/slick.css"/>
+    <link rel="stylesheet" href="slick/slick-theme.css"/>
+
 
     <!-- our own custom stylesheet -->
     <script src="script.js"> href="script.js"</script>
@@ -127,7 +128,7 @@
 
 <!-- ---------banner----- -->
 
-<section class="grid service-banner">
+<section id ="title" class="grid service-banner">
   <div class="col-6_md-6_sm-6_xs-12-middle titlefade centered padded">
     <h2 class="big-bold centered"><br> - Let's take you further - </h2>
     <p> If you’ve made it to this page, it’s quite likely that we already know quite a bit about one another, but if you’d like to be reminded, feel free to head over to our website for a refresher.</p>
@@ -224,7 +225,7 @@
 
 
 <!-- --------corp branding------ -->
-<div class="grid slideinleft flex-flip">
+<div class="grid slideinleft  flex-flip">
   <div class="col-5_sm-5_xs-12 bg-corpbranding">
         <img class= "desktop-hide" src="images/mockup8.jpg" alt="#">
   </div>
@@ -338,74 +339,108 @@
   </div>
 </section>
 
+<!-- reviews -->
+
+<section id="reviews" class="padded-4 grid-center">
+  <h2> Reviews </h2>
+</section>
+
+<section id="reviews" class="padded grid-center image-slider">
+  <div class="grid-center">
+    <div class="col-9_sm-12-middle padded-1">
+      <hr>
+      <p class="company emphasis">
+        Candy and the King built our JP Residences website and the result is perfectly what we expected. It’s clear, modern and easy to navigate.
+        It was nice working with them. I would recommend without hesitation.
+
+    JP residence. ( Pe) <br>
+    <span> &#9733; &#9733; &#9733; &#9733; &#9733; </span>
+    </p>
+      <p> <a class="review" href ="https://jpresidences.com/" target="_blank">- Ms Pe, Owner of JP Residences in Laos </a></p>
+    </div>
+  </div>
+
+    <div class="grid-center">
+      <div class="col-9_sm-12-middle  padded-1">
+        <hr>
+        <p class="company emphasis">
+          In 2016, Candy and Jonty helped me turn my passion into a career. We brainstormed together and got all my ideas out on paper which was the beginning of my fitness business, CazFit. (I still have that piece of paper we scribbled all my ideas on.) They also did some corporate branding for me (I have 4 pages of different logo designs she helped me with, they also designed my double-sided business cards and my invoice template). <br>Their work ethic went above and beyond my expectations, and Candy made herself available to my requests at all hours. <br> I also hired them to consult me with my social media pages. After  helping me setup my business Facebook page and Instagram page, they taught me the basics of social media management so I have been able to manage my accounts myself. <br>Their service really is incredible and I'm definitely going to be going to them to redesign my website. I wouldn't go to anyone else! 😁  <br>
+        <span> &#9733; &#9733; &#9733; &#9733; &#9733; </span>
+        </p>
+        <p> <a class="review" href ="https://www.facebook.com/cazfitsa/" target="_blank">- Caroline, founder of CazFit in South Africa </a> </p>
+      </div>
+    </div>
+
+      <div class="grid-center">
+        <div class="col-9_sm-12-middle  padded-1">
+          <hr>
+          <p class="company emphasis">
+            I hired Jonty and Candy for a four month project. We ended up extended our contact as I was well pleased with their work and wanted them to manage my business Facebook page. During the four months, they did corporate branding that included business cards for all my office staff, a letterhead, email signatures, social media icons and many more branded stationary items. <br> They also managed my business Facebook page which did very well under their care.<br>
+          <span> &#9733; &#9733; &#9733; &#9733; &#9733; </span>
+          </p>
+          <p> <a class="review" href ="https://www.jsib.co.za/" target="_blank">- Jerome, CEO of JSib in South Africa </a> </p>
+        </div>
+      </div>
+
+
+      <div class="grid-center">
+        <div class="col-9_sm-12-middle padded-1">
+          <hr>
+          <p class="company emphasis">
+           My wife and I have stayed at a few different apartments around Vientiane as we battled to find a place that meets all our needs. JP Residences has done so. The rooms are modern and well kept. There is always staff around that are able to help and attend to us if need be. The facilities are great: a well equipped fitness centre, grass area and huge undercover parking. My wife and I were very pleased to have drinking water available. Also the location is perfect, close to downtown in the heart of the expat area, but also on an extremely quiet road. Overall we have been very happy here and would recommend these apartments without hesitation. <br>
+        <span> &#9733; &#9733; &#9733; &#9733; &#9733; </span>
+        </p>
+          <p> - Mr King, a couple</p>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- ----------- get a quote -------- -->
+
 <section id="packages" class="light-bg packages centered">
-  <h2> Packages </h2>
-  <p class="padded-large"> These are our most popular packages. Let us know if there is something more specific that you need and we’ll gladly support you. If you're still unsure of exactly what it is that you need, we are more than happy to arrange a free consultation either in person or online.</p>
   <div class="grid padded-1">
+    <div class="col-3-middle mob-hide centered"> </div>
+    <div class="col-6_sm-12 padded-1">
+      <div class="pricing card bg-quote padded" id="quote">
+
+          <div class="col-12-middle">  <h2> - Get a Quote - </h2> </div>
+          <div class="grid">
 
 
-    <!-- <div class="col-3_sm-12 padded-1">
-      <div class="pricing card">
-        <h5> Entrepreneur Kit <br><br>﹋</h5>
-        <p> For start-up companies looking for:</p>
+            <div class="col-12-middle_sm-12 centered">
+               <p> Whether you'd like to colaborate with us, have a website built or exchange services, we'd be happy to have a chat. Our quotes come with a FREE consultation that we'll do either in person or video chat. <br>After you've filled out the form below, we'll organise a time to meet. </p>
+              <p class=" wave centered"><img class="waves" src="images/wave.gif" alt="#"></p>
+             </div>
 
-        <ul class="no-bullets">
-          <li> Web Development </li>
-          <li> Content Creation </li>
-          <li> Creative Directing </li>
-          <li> Corporate Branding </li>
-          <li> Brand Partnership </li>
-        </ul>
-        <h5>﹏</h5>
-        <p class="price">get a quote</p>
-      </div>
-    </div> -->
+    <div class="col-3-middle mob-hide centered"> </div>
 
-    <div class="col-4_sm-12 padded-1">
-      <div class="pricing card">
-        <h5> Online Social Kit <br><br>﹋</h5>
-        <p> For brands wanting a stronger <br>online presence.</p>
+           </div>
 
-        <ul class="no-bullets">
+           <div class="col-3 mob-hide"> </div>
+            <form class="col-6-middle_sm-12 grid-center" action="https://formspree.io/hello@candyandtheking.com" method="POST">
 
-          <li> Creative Directing </li>
-          <li> Brand Partnership </li>
+              <div class="col-6_sm-12">
+                <input type="text" name="name" placeholder="Your Name">
+              </div>
 
+              <div class="col-6_sm-12">
+                <input type="email" name="_replyto" placeholder="Your Email">
+              </div>
 
-        </ul>
-        <h5>﹏</h5>
-        <p class="price">get a quote</p>
-      </div>
+              <div class="col-12">
+                <input type="text" name="subject" placeholder="Subject (Enquiry/Web Development/Content Creation/etc)">
+              </div>
+
+              <div class="col-12">
+                <textarea placeholder="Your Message"></textarea>
+                <input type="submit" value="Send" class="button">
+              </div>
+              <div class="col-1 mob-hide"> </div>
+
     </div>
 
-    <div class="col-4_sm-12 padded-1">
-      <div class="pricing card featured">
-        <h5> Classic Kit <br><br>﹋</h5>
-        <p> Any brand or business needing a website. This kit includes all aspects of web development.</p>
 
-        <ul class="no-bullets">
-          <li class="transparent"> .</li>
-          <li> Web Development </li>
-
-
-        </ul>
-        <h5>﹏</h5>
-        <p class="price">get a quote</p>
-      </div>
-    </div>
-
-    <div class="col-4-middle_sm-12 padded-1">
-      <div class="pricing card">
-        <h5> The Custom Kit <br><br>﹋</h5>
-        <ul class="no-bullets">
-        <p> If you know exactly what you need, that’s great! Create your own package perfectly fitted for your brand’s needs.</p>
-        <li class="transparent"> .</li>
-
-        </ul>
-        <h5>﹏</h5>
-        <p class="price">get a quote</p>
-      </div>
-    </div>
 
 
 </section>
@@ -430,32 +465,6 @@
 
     <!-- -gallery end  -->
 
-    <!-- -contact us  -->
-
-    <section class="grid bg-contact dark-bg padded" id="contact">
-      <div class="col-12-middle"><h2> Work with us </h2> </div>
-      <div class="grid">
-        <div class="col-2-middle mob-hide centered"> </div>
-        <div class="col-8-middle_sm-12 centered">
-           <p> Whether you'd like to colaborate with us, have a website built or exchange services, we'd be happy to have a chat. We're always excited about new opportunites and possibilites.</p>
-           <p> ﹋</p>
-         </div>
-         <div class="col-2-middle mob-hide centered"> </div>
-       </div>
-        <form class="col-12-middle grid-center" action="https://formspree.io/hello@company.com" method="POST">
-          <div class="col-6_sm-12">
-            <input type="text" name="name" placeholder="Your Name">
-          </div>
-          <div class="col-6_sm-12">
-            <input type="email" name="_replyto" placeholder="Your Email">
-          </div>
-          <div class="col-12">
-            <textarea placeholder="Your Message"></textarea>
-            <input type="submit" value="Send" class="button">
-          </div>
-    </section>
-
-    <!-- -contact end  -->
 
     <!-- - footer - -->
 
@@ -484,11 +493,10 @@
       <p class="desktop-hide squiggle">  ﹏ </p>
     </div>
 
-    <div class="col-4-middle_sm-12-right built">
-      <p> Website built by <a href="https://www.candyandtheking.com"> Candy and the King </a> </p>
-      <p> © by <a href="https://www.candyandtheking.com">candyandtheking.com </a></p>
-      <p> hello@candyandtheking.com</p>
-
+    <div class="col-12-middle built">
+      <p> <a href="https://www.candyandtheking.com"> Website by Candy and the King </a>
+      <a href="https://www.candyandtheking.com"> © by candyandtheking.com </a>
+      hello@candyandtheking.com</p>
     </div>
 
     <!-- -footer end- -->
@@ -497,13 +505,13 @@
       <!--  This is my javascript, first jquery then any custom scripts -->
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 
 
-
+<!-- -_______ for the hamburger _________ -->
       <script>
-
         $(".hamburger").click(function(){
 
           $(this).toggleClass('active');
@@ -517,6 +525,9 @@
 
         });
       </script>
+
+      <!-- _______anything that fades in__________ -->
+
     <script>
       $(document).ready(function() {
           $(window).scroll( function(){
@@ -530,27 +541,31 @@
           });
       });
     </script>
+
+    <!-- _______anything that slides in from right__________ -->
+
     <script>
       $(document).ready(function() {
         $(window).scroll( function(){
           $('.slideinright').each( function(i){
-            var bottom_of_element = $(this).offset().top +
-            $(this).outerHeight();
+            var bottom_of_element = $(this).offset().top;
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if( bottom_of_window > bottom_of_element ){
-                $(this).animate({'margin-left':'0px'},2000);
+                $(this).animate({'margin-left':'0px'},2000);({'opacity':'1'},1000);
+
+
             }
             });
           });
       });
     </script>
+    <!-- _______anything that slides in from left__________ -->
 
     <script>
     $(document).ready(function() {
       $(window).scroll( function(){
         $('.slideinleft').each( function(i){
-            var bottom_of_element_left = $(this).offset().top +
-            $(this).outerHeight();
+            var bottom_of_element_left = $(this).offset().top;
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if( bottom_of_window > bottom_of_element_left ){
                 $(this).animate({'margin-left':'0px'},2000);
@@ -560,7 +575,26 @@
       });
     </script>
 
+    <!-- _______for the review________ -->
 
+    <script src="slick/slick.min.js"></script>
+    <script>
+
+    $(document).ready(function(){
+      $('.image-slider').slick({
+        autoplay: true,
+        autoplaySpeed: 5000
+      });
+    });
+
+
+    $(function(){
+              $("#chkbtn").on('click',function() {
+                  $(this).hide();
+                  $("#hidden-div").show();
+              });
+          });
+    </script>
 
 
 
