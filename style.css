@@ -60,7 +60,7 @@
   /* General typography */
 
   h1 {
-    line-height: 1;
+    line-height: 1rem;
     margin-bottom: 0.8rem;
     text-transform: uppercase;
     text-align: center;
