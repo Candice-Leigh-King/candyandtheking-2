@@ -290,6 +290,8 @@
 
   .review {text-decoration: none;
   color: #d4adad;}
+  
+  .review-z{z-index: -3;}
 
   .review:hover {color: #abb8bf;}
 
