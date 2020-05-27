@@ -9,6 +9,8 @@
   .hidden {display:none;}
   html {
     scroll-behavior: smooth; /* this enables smooth scrolling between internal links */
+    width: 100vw;
+    overflow-x: hidden;
   }
 
   img {
