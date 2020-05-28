@@ -9,7 +9,7 @@
     <!-- Meta data for SEO purposes. -->
     <title> Candy and the King </title>
     <meta name="description" content="Website Developers and Content Creators for luxurious hotels, boutiques and beautiful destinations">
-    <meta name="keywords" content="travel, photography, content creators, influencers, instagram, tiktok, facebook, thailand">
+    <meta name="keywords" content="travel, photography, content creators, influencers, instagram, tiktok, thailand, candy and the king">
 
     <!-- meta data to tell the browser that your devide is responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -66,6 +66,7 @@
     <!-- For slider reviews  -->
     <link rel="stylesheet" href="slick/slick.css"/>
     <link rel="stylesheet" href="slick/slick-theme.css"/>
+
 
 
     <!-- our own custom stylesheet -->
@@ -196,7 +197,7 @@
     <div class="col-7_sm-7_xs-12-middle padded">
       <h3> Social Media Content Creation</h3>
         <h3 class="service-descriptions"> Photography, copywriting, stories, hashtags, gifs </h3>
-      <p> Everyone loves seeing beautiful content, and in our current digital era, your content needs to be mind-blowing <span id="webdev">...</span> to even <span id= "webdev3">get noticed. To always produce fresh and quality content that appeals to your niche can sometimes be a burden. We’re here to carry this burden so you can focus on other aspects of your business. We handle all photography and edits. We create fun and engaging stories, along with copywriting (any text information) supported by niche-focused hashtags that captivate your audience. Our content creation is specific for social media platforms like Facebook, Instagram, TikTok and Twitter. </span>
+      <p> Everyone loves seeing beautiful content, and in our current digital era, your content needs to be mind-blowing <span id="webdev">...</span> to even <span id= "webdev3">get noticed. Always producing fresh and quality content, that appeals to your niche, can sometimes be a burden. We’re here to carry this burden, so you can focus on other aspects of your business. We handle all photography and edits. We create fun and engaging stories, along with copywriting (any text information) supported by niche-focused hashtags that captivate your audience. Our content creation is specific for social media platforms like Facebook, Instagram, TikTok and Twitter. </span>
       </p>
     <button type="button" id="webdev2" onclick="webdev()">tell me more</button>
     <script type="text/javascript">
@@ -569,8 +570,11 @@
 
     $(document).ready(function(){
       $('.image-slider').slick({
+        draggable: true,
         autoplay: true,
-        autoplaySpeed: 6000
+        dots: true,
+        adaptiveHeight: true,
+        autoplaySpeed: 5000
       });
     });
 
