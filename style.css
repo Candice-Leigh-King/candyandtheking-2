@@ -43,6 +43,9 @@
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
   .padded-large {padding: 2% 20%;}
+  .padded-side {padding: 0% 5% 3%}
+
+  .margin-top {margin-top:4rem;}
 
   .capped-width { width: 80%; margin: auto;}
 
@@ -51,7 +54,7 @@
 
   .dark-bg      {  background-color: rgb(90, 90, 95);     }
   .light-bg     {  background-color: #ecdfdc; }
-  .featured-bg  {  background-color: #ffdfc3;       }
+  .featured-bg  {  background-color: #ffdfc3;}
 
   .light-text   { color: white; }
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
@@ -213,6 +216,9 @@
     }
     .bg-contact p {color: white;}
 
+    .stats h2 {
+    color: #cdb0a9;}
+
     .fade-in-section {
       opacity: 0;
       transform: translateY(20vh);
@@ -229,7 +235,8 @@
 
   h2  {
       font-size: 5rem;
-      text-transform: lowercase;}
+      text-transform: lowercase;
+    font-weight: 300;}
 
   h3  {
       font-size: 1.8rem;
@@ -546,11 +553,26 @@
     background-image: url('images/abouts.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    min-height: 92vh;
     padding-top: 6rem;
+    margin: 5%;
   }
 
   .service-banner h2 {
+    font-size: 3.1rem;
+    color: #d4adad;
+  }
+
+  .brand-partnership-page {
+    background-image: url('images/abouts.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 20vh;
+    padding-top: 6rem;
+    margin: 2%;
+  }
+
+  .brand-partnership-page h2 {
     font-size: 3.1rem;
     color: #d4adad;
   }
@@ -1072,11 +1094,14 @@ min-height: 60vh;}
     background-image: none;
     border: none;}
 
+
+  .brand-partnership-service-descriptions h3 {font-size: 2rem;}
   .servicepage h1 {line-height: 1.3rem;}
   .servicepage .services h2 {font-size: 2.5rem;}
   .servicepage h3 {font-size: 1.5rem;}
   .servicepage .service-descriptions {font-size: 1.1rem;}
   .servicepage p {font-size: 0.9rem;}
+
 
   .padded-large {padding: 2% 5%;}
 
@@ -1135,24 +1160,26 @@ footer .squiggle {margin-bottom: 5%;}
       padding-top: 6rem;
       margin: 5%;}
 
-  .service-banner  h2 {
-    font-size: 1.2rem;
-    margin-bottom: 5%;
-    background-color: rgba(255, 255, 255,0.80);
-    display: inline-block;
-    padding: 0.5rem;
-    margin: 2px;
-    color: #575757;
-  }
-  .service-banner  p{
-    font-size: 0.9rem;
-    margin-bottom: 5%;
-    display: inline-block;
-    padding: 0.5rem;
-    margin: 2px;
-    background-color: rgba(255, 255, 255,0.80);
-    color: black;
-  }
+      .service-banner  p{
+        font-size: 0.9rem;
+        margin-bottom: 5%;
+        display: inline-block;
+        padding: 0.5rem;
+        margin: 2px;
+        background-color: rgba(255, 255, 255,0.80);
+        color: black;
+      }
+
+      .service-banner  h2 {
+        font-size: 1.2rem;
+        margin-bottom: 5%;
+        background-color: rgba(255, 255, 255,0.80);
+        display: inline-block;
+        padding: 0.5rem;
+        margin: 2px;
+        color: #575757;
+      }
+
 
   .built p { font-size: 0.7rem;
   margin-bottom: 0.2%;
@@ -1164,6 +1191,33 @@ footer .squiggle {margin-bottom: 5%;}
     padding: 5%;}
 
   .bg-quote h2 {font-size: 2rem;}
+
+  .brand-partnership-page {background-image: url('images/mob-about1.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh;
+    padding-top: 6rem;
+    margin: 5%;}
+
+    .brand-partnership-page  h2 {
+      font-size: 1.2rem;
+      margin-bottom: 5%;
+      background-color: rgba(255, 255, 255,0.80);
+      display: inline-block;
+      padding: 0.5rem;
+      margin: 2px;
+      color: #575757;
+    }
+
+    .brand-partnership-page  p{
+      font-size: 0.9rem;
+      margin-bottom: 5%;
+      display: inline-block;
+      padding: 0.5rem;
+      margin: 2px;
+      background-color: rgba(255, 255, 255,0.80);
+      color: black;
+    }
 
 
 } /* end media query */
