@@ -56,6 +56,8 @@
   .light-bg     {  background-color: #ecdfdc; }
   .featured-bg  {  background-color: #ffdfc3;}
 
+  .stats {background-color: #fdefc1; }
+
   .light-text   { color: white; }
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
 
@@ -217,7 +219,7 @@
     .bg-contact p {color: white;}
 
     .stats h2 {
-    color: #cdb0a9;}
+    color: #e7c45d;}
 
     .fade-in-section {
       opacity: 0;
@@ -564,12 +566,12 @@
   }
 
   .brand-partnership-page {
-    background-image: url('images/abouts.jpg');
+    background-image: url('images/brand-partnership-banner.jpg');
     background-size: cover;
-    background-position: center;
-    min-height: 20vh;
+    background-position: bottom;
+    min-height: 70vh;
     padding-top: 6rem;
-    margin: 2%;
+    margin: 5%;
   }
 
   .brand-partnership-page h2 {
@@ -1192,9 +1194,9 @@ footer .squiggle {margin-bottom: 5%;}
 
   .bg-quote h2 {font-size: 2rem;}
 
-  .brand-partnership-page {background-image: url('images/mob-about1.jpg');
+  .brand-partnership-page {background-image: url('images/brand-partnership-banner.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: right;
     min-height: 40vh;
     padding-top: 6rem;
     margin: 5%;}
