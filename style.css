@@ -1056,13 +1056,13 @@
 
 .service-banner {margin: 0%;}
 
-.brand-partnership-page {background-image: url('images/brand-partnership-banner-mob.jpg');
+  .brand-partnership-page {background-image: url('images/brand-partnership-banner-mob.jpg');
   background-size: cover;
   background-position: center;
   padding-top: 6rem;
   margin: 0%;}
 
-  .service-banner  h2 {font-size: 1.6rem;}
+  .service-banner  h2 {font-size: 1.4rem;}
 
   .service-banner {
       background-image: url('images/mob-about12.jpg');
