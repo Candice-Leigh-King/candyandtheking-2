@@ -568,7 +568,7 @@
   }
 
   .brand-partnership-page {
-    background-image: url('images/brand-partnership-banner.jpg');
+    background-image: url('images/small/brand-partnership-banner.jpg');
     background-size: cover;
     background-position: bottom;
     min-height: 92vh;
@@ -1212,9 +1212,9 @@ footer .squiggle {margin-bottom: 5%;}
 
   .bg-quote h2 {font-size: 2rem;}
 
-  .brand-partnership-page {background-image: url('images/brand-partnership-banner.jpg');
+  .brand-partnership-page {background-image: url('images/brand-partnership-banner-mob.jpg');
     background-size: cover;
-    background-position: right;
+    background-position: center;
     padding-top: 6rem;
     margin: 0%;}
 
