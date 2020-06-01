@@ -56,7 +56,9 @@
   .light-bg     {  background-color: #ecdfdc; }
   .featured-bg  {  background-color: #ffdfc3;}
 
-  .stats {background-color: #fdefc1; }
+  .stats {
+    background-color: #fdefc1;
+    padding-top: 5%;}
 
   .light-text   { color: white; }
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
@@ -169,7 +171,7 @@
     color: #93a081;
     text-align: center;
     font-weight: 300;
-    padding: 1% 5% 0% 5%;
+    padding: 5% 5% 0% 5%;
 
   }
 
@@ -219,7 +221,7 @@
     .bg-contact p {color: white;}
 
     .stats h2 {
-    color: #e7c45d;}
+    color: #e7c45dc4;}
 
     .fade-in-section {
       opacity: 0;
@@ -1197,6 +1199,7 @@ footer .squiggle {margin-bottom: 5%;}
         color: #575757;
       }
 
+      .stats h2{font-size: 2rem;}
 
   .built p { font-size: 0.7rem;
   margin-bottom: 0.2%;
