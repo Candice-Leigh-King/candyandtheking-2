@@ -1084,6 +1084,8 @@
       margin: 2px;
       color: #575757;}
 
+    .service-banner  {margin: 0%;}
+
 /* . {margin: 5%} */
   h1 {
   font-size: 1.6rem; }
@@ -1178,6 +1180,25 @@ footer .squiggle {margin-bottom: 5%;}
 @media(min-width: 1024px)
 {
   .desktop-hide {display: none;}
+
+}
+
+@media(max-width:641px){
+
+  .service-banner h2 {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;}
+
+    .service-banner {
+      background-image: url('images/mob-about12.jpg');
+      background-size: cover;
+      background-position: right;
+      min-height: 90vh;
+      padding-top: 6rem;
+      margin: 0%;}
 }
 /* This media query kicks into action at the gridlex xs breakpoint */
 @media(max-width:576px) {
