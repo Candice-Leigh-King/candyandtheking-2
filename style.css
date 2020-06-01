@@ -57,7 +57,7 @@
   .featured-bg  {  background-color: #ffdfc3;}
 
   .stats {
-    background-color: #fdefc1;
+    background-color: rgb(205, 230, 236);
     padding-top: 5%;}
 
   .light-text   { color: white; }
@@ -221,7 +221,7 @@
     .bg-contact p {color: white;}
 
     .stats h2 {
-    color: #edce74;}
+    color: #00b8ba;}
 
     .fade-in-section {
       opacity: 0;
