@@ -205,6 +205,10 @@
   .freebie img {max-height: 4rem;
   padding: 0%;}
 
+  .proposal {
+    background-color: rgb(205, 230, 236);
+      padding: 5%;}
+
   .lovethekings img{max-height: 4.5rem;}
 
   .bg-gallery h2  {
