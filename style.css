@@ -544,9 +544,24 @@
     background-image: url('images/Banner-small.jpg');
     background-size: cover;
     background-position: bottom;
-    min-height: 100vh;
+    min-height: 99vh;
     padding-top: 6rem;
     margin: 5%;
+  }
+  .mob-bg1 {
+    background-image: url('images/small/mob-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+
+  }
+
+  .mob-bg2 {
+    background-image: url('images/small/mob-bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+
   }
 
   .mob-img img {
@@ -1053,9 +1068,9 @@
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
 
-  body *{
+  /* body *{
     background-attachment: initial !important;
-  }
+  } */
 
 .banner {margin: 0%;}
 

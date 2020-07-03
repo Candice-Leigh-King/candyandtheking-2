@@ -4,12 +4,44 @@
 <head>
 
   <!-- Meta Data -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=CONTENT-CREATOR-WEBSTITE-DEVELOPMENT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'CONTENT-CREATOR-WEBSTITE-DEVELOPMENT');
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Ads: CONVERSION_ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=CONTENT-CREATOR-WEBSTITE-DEVELOPMENT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+
+    gtag('config', 'CONTENT-CREATOR-WEBSTITE-DEVELOPMENT');
+  </script>
+
+  <!-- Global site tag (gtag.js) - Floodlight -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=CONTENT-CREATOR-WEBSTITE-DEVELOPMENT"></script>
+  <script>
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+
+    gtag('config', 'CONTENT-CREATOR-WEBSTITE-DEVELOPMENT');
+  </script>
+
     <meta charset="utf-8">
 
     <!-- Meta data for SEO purposes. -->
-    <title> Candy and the King </title>
-    <meta name="description" content="Website Developers and Content Creators for luxurious hotels, boutiques and beautiful destinations">
-    <meta name="keywords" content="travel, photography, content creators, influencers, instagram, tiktok, facebook, thailand">
+    <title> Candy and the King - Services </title>
+    <meta name="description" content="Candy and the King, Web Developers and Content Creators for luxurious hotels and beautiful destinations.">
+    <meta name="keywords" content="travel, couple, photography, content creators, influencers, instagram, tiktok, facebook, thailand, web development">
 
     <!-- meta data to tell the browser that your devide is responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,26 +51,28 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
     <!-- meta data to verify web with google-->
-    <meta name="google-site-verification" content="OrXiqpLAYW66n20XsZIttR0LrQCm262zlzwy1tLRUYs" />
+    <meta name="google-site-verification" content="OrXiqpLAYW66n20XsZIttR0LrQCm262zlzwy1tLRUYs"/>
+
 
     <!-- link to browser icon tag -->
-    <link rel="shortcut icon" type="image/png" href="/images/browser-icon-candy-and-the-king-01.png">
+    <link rel="shortcut icon" type="image/png" href="images/browser-icon-candy-and-the-king-01.png">
 
     <!--  Social media sharing META Tags -->
-    <meta property="og:title" content="Candy and the King">
-    <meta property="og:description" content="We travel and laugh a lot">
-    <meta property="og:image" content="images/laugh1.jpg">
+    <meta property="og:title" content="Digital Creators: web development, content creation and more">
+    <meta property="og:description" content="Web Developers and Content Creators for boutiques, luxurious hotels and beautiful destinations.">
+    <meta property="og:image" content="images/small/contentcreation2.jpg">
     <meta property="og:url" content="www.candyandtheking.com">
-    <meta name="og:site_name" content="Candy and the King">
+    <meta name="og:site_name" content="Candy and the King - Services">
 
     <!-- twitter card -->
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:description" content="The couple who travels and laughs a lot" />
+    <meta name="twitter:description" content="Digital Creators, Website Developers and Content Creators" />
     <meta name="twitter:title" content="Candy and the King" />
     <meta name="twitter:site" content="@candyandtheking" />
-    <meta name="twitter:image" content="images/laugh1.jpg" />
-    <meta name="twitter:creator" content="@therealdanvega" />
+    <meta name="twitter:image" content="images/small/contentcreation2.jpg" />
+    <meta name="twitter:creator" content="@candyandtheking" />
+    <meta name="twitter:image:alt" content="Candy and the King are not only an influencer couple who travel and laugh a lot, but they are also web developers and content creators."
 
 
   <!-- end of meta tags -->
@@ -61,11 +95,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
 
     <!-- iconify icons -->
-
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 
-    <!-- Magnific Popup for lightbox galleries   -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+    <!-- For slider reviews  -->
+    <link rel="stylesheet" href="slick/slick.css"/>
+    <link rel="stylesheet" href="slick/slick-theme.css"/>
+
+
 
     <!-- our own custom stylesheet -->
     <script src="script.js"> href="script.js"</script>
@@ -80,13 +116,13 @@
   <header class="grid fixed">
     <div class="col-4 left logo grow">
       <a href="services.html">
-        <img src="images/logo-white-01.png" alt="Candy and the King travel and content creator logo">
+        <img src="images/candyand-the-king-white-2.gif" alt="Candy and the King travel couple and content creator logo">
       </a>
     </div>
     <nav class="col-8-middle right mob-hide">
-      <a href="#ourservices"> Our Services </a>
-      <a href="#packages"> Packages </a>
       <a href="index.html#about" target="_blank"> About </a>
+      <a href="#ourservices"> Our Services </a>
+      <a href="#reviews"> Reviews </a>
       <a href="#gallery"> Gallery </a>
       <a href="work-with-us.html"> Contact </a>
     </nav>
@@ -102,11 +138,11 @@
 
       <div class='grid mobile-nav page'>
         <div class="col-12 padded-top">
-        <a href="#ourservices"> Our Services </a>
-        <a href="#packages"> Packages </a>
-        <a href=" index.html#about" target="_blank"> About </a>
-        <a href="#gallery"> Gallery </a>
-        <a href="work-with-us.html"> Contact </a>
+          <a href=" index.html#about" target="_blank"> About </a>
+          <a href="#ourservices"> Our Services </a>
+          <a href="#reviews"> Reviews </a>
+          <a href="#gallery"> Gallery </a>
+          <a href="work-with-us.html"> Contact </a>
           <a> ﹏</a>
     </div>
 
@@ -127,11 +163,13 @@
 
 <!-- ---------banner----- -->
 
-<section class="grid service-banner">
-  <div id= title class="col-6_sm-12-middle titlefade centered padded">
-    <h2 class="big-bold centered"> - Let's take you further - </h2>
-    <p> If you’ve made it to this page, it’s quite likely that we already know quite a bit about one another, but if you’d like to be reminded, feel free to head over to our website for a refresher.</p>
-    <a href="index.html" target="_blank" class="button"> Meet the Kings!</a>
+<section id ="title" class="grid service-banner">
+  <div class="col-12 padded desktop-hide"><br><br><br> <br></div>
+
+  <div class="col-6_md-6_sm-6_xs-12-middle titlefade centered padded">
+    <h2 class="big-bold centered"><br class="mob-hide"><br class="mob-hide"> - Let's take you further - </h2>
+    <!-- <p> If you’ve made it to this page, it’s quite likely that we already know quite a bit about one another. If that's the case, let's skip right to it and organise a FREE consultation.</p> -->
+    <a href="#quote" class="button"> Get a free consultation</a>
   </div>
   <div class="col-12-bottom centered">
       <h1> Candy and the King │ Web Developers and Content Creators </h1>
@@ -143,7 +181,7 @@
 <!-- -----------text and grid --------------- -->
 <section class="grid services">
   <div class="col-12 centered">
-    <h2 class="fadein">- Our Services -</h2>
+    <h2 id="title">- Our Services -</h2>
   </div>
 </section>
 <section id="ourservices" class="text-and-grid padded">
@@ -151,15 +189,15 @@
 
     <!-- ----------web dev ------ -->
     <div class="grid slideinleft">
-    <div class="col-5_sm-12 bg-webdev">
-      <img class= "desktop-hide" src="images/webdev.jpg" alt="#">
+    <div class="col-5_sm-5_xs-12 bg-webdev">
+      <img class= "desktop-hide" src="images/small/webdev2.jpg" alt="#">
     </div>
-    <div class="col-7_sm-12-middle padded">
+    <div class="col-7_sm-7_xs-12-middle padded">
       <h3> Web Development</h3>
       <h3 class="service-descriptions"> Coding, SEO, photography, design, copywriting, gifs </h3>
-      <p> Do you have a website and does it function perfectly on a mobile phone as it does on a laptop or computer? Google research states that 72% of people<span id="dots">...</span> <span id= "more"> will use only their mobile to access the internet by 2025. We develop visually pleasing, easy-to-navigate websites with beautiful imagery for all devices. We love creating websites that are effective for your target audience with lovely easy-to-read copywriting. Let’s setup your online presence with a bang! </span>
+      <p> Do you have a website and does it function perfectly on a mobile? Google research states that 72% of people<span id="dots">...</span> <span id= "more"> will use only their mobile to access the internet by 2025. We develop visually pleasing, easy-to-navigate websites with beautiful imagery for all devices. We love creating websites that engage your target audience with lovely, easy-to-read copywriting. Let’s setup your online presence with a bang! </span>
       </p>
-    <button type="button" id="read" onclick="read()">tell me more</button>
+    <a class="button" id="read" onclick="read()">tell me more</a>
     <script type="text/javascript">
       var i=0;
       function read(){
@@ -187,15 +225,15 @@
 </div>
 <!-- ---------content creator-->
   <div class="grid slideinright flex-flip">
-    <div class="col-5_sm-12 bg-content">
-        <img class= "desktop-hide" src="images/content.jpg" alt="#">
+    <div class="col-5_sm-5_xs-12 bg-content">
+        <img class= "desktop-hide" src="images/small/contentcreation2.jpg" alt="#">
     </div>
-    <div class="col-7_sm-12-middle padded">
+    <div class="col-7_sm-7_xs-12-middle padded">
       <h3> Social Media Content Creation</h3>
         <h3 class="service-descriptions"> Photography, copywriting, stories, hashtags, gifs </h3>
-      <p> Everyone loves seeing beautiful content, and in our current digital era, your content needs to be mind-blowing to even<span id="webdev">...</span> <span id= "webdev3">get noticed. To always produce fresh and quality content that appeals to your niche can sometimes be a burden. We’re here to carry this burden so you can focus on other aspects of your business. We handle all photography and edits. We create fun and engaging stories, along with copywriting (any text information) supported by niche-focused hashtags that captivate your audience. Our content creation is specific for social media platforms like Facebook, Instagram, TikTok and Twitter. </span>
+      <p> Everyone loves seeing beautiful content, and in our current digital era, your content needs to be mind-blowing <span id="webdev">...</span> to even <span id= "webdev3">get noticed. Always producing fresh and quality content, that appeals to your niche, can sometimes be a burden. We’re here to carry this burden, so you can focus on other aspects of your business. We handle all photography and edits. We create fun and engaging stories, along with copywriting (any text information) supported by niche-focused hashtags that captivate your audience. Our content creation is specific for social media platforms like Facebook, Instagram, TikTok and Twitter. </span>
       </p>
-    <button type="button" id="webdev2" onclick="webdev()">tell me more</button>
+    <a class="button" id="webdev2" onclick="webdev()">tell me more</a>
     <script type="text/javascript">
       var i=0;
       function webdev(){
@@ -224,17 +262,17 @@
 
 
 <!-- --------corp branding------ -->
-<div class="grid slideinleft flex-flip">
-  <div class="col-5_sm-12 bg-corpbranding">
-        <img class= "desktop-hide" src="images/corpbranding.jpg" alt="#">
+<div class="grid slideinleft  flex-flip">
+  <div class="col-5_sm-5_xs-12 bg-corpbranding">
+        <img class= "desktop-hide" src="images/small/mockup8.jpg" alt="#">
   </div>
-    <div class="col-7_sm-12-middle padded">
-      <h3> Corporte Branding</h3>
+    <div class="col-7_sm-7_xs-12-middle padded">
+      <h3> Corporate Branding</h3>
       <h3 class="service-descriptions"> Logos, Business cards, letterheads, email signatures, flyers, etc </h3>
       <p> For start-up brands or businesses looking to rebrand, we do all the basics that get you started. This will aid in <span id="brand">...</span> <span id= "brand3"> promoting your brand name, product or service. We use creative tools to extract your brands beautiful core so that you can parade it to the world. </span>
       </p>
-    <button type="button" id="brand2" onclick="brand()">tell me more</button>
-    <script type="text/javascript">
+      <a class="button" id="brand2" onclick="brand()">tell me more</a>
+      <script type="text/javascript">
       var i=0;
       function brand(){
         if(!i){
@@ -255,59 +293,57 @@
 
       }
     }
-  </script>
-
+      </script>
   </div>
 </div>
 <!-- ----------creative direction -->
 <div class="grid slideinright flex-flip">
-<div class="col-5_sm-12 bg-creative-direction">
-      <img class= "desktop-hide" src="images/creative-direction.jpg" alt="#">
-</div>
-<div class="col-7_sm-12-middle padded ">
-  <h3> Creative Direction </h3>
-    <h3 class="service-descriptions"> Social media setup, consultation, campaigns, etc </h3>
-  <p> You know where you want to go when it comes to your online presence, but you don’t know how to get there. We give step-by-step<span id="cd">...</span> <span id= "cd3"> guidance on how to setup your social media platforms and how to produce your own content that will transform your social media layouts. In other words, we make your "Instagram" great! <br>No matter where you are in the process of growing your online presence, we are able to step in and give you support. We provide tools on how to operate your own digital media with a strategy that is unique and suited for your brand. We give creative direction to clients all over the globe either online or in-person. </span>
-  </p>
-<button type="button" id="cd2" onclick="cd()">tell me more</button>
-<script type="text/javascript">
-  var i=0;
-  function cd(){
-    if(!i){
-      document.getElementById("cd3").style.
-        display ="inline";
-      document.getElementById("cd").style.
-        display ="none";
-      document.getElementById("cd2").innerHTML ="finished";
-    i=1;
-  }
-  else{
-    document.getElementById("cd3").style.
-      display ="none";
-    document.getElementById("cd").style.
-      display ="inline";
-    document.getElementById("cd2").innerHTML ="tell me more";
-  i=0;
+  <div class="col-5_sm-5_xs-12 bg-creative-direction">
+        <img class= "desktop-hide" src="images/small/creative2.jpg" alt="#">
+  </div>
+  <div class="col-7_sm-7_xs-12-middle padded ">
+    <h3> Creative Direction </h3>
+      <h3 class="service-descriptions"> Social media setup, consultation, campaigns, etc </h3>
+    <p> You know where you want to go when it comes to your online presence, but you need support in getting there. We give step-by-step<span id="cd">...</span> <span id= "cd3"> guidance on how to build your social media platforms and how to produce your own content that will transform your social media presence. In other words, we make your "Instagram" #instagreat. <br>No matter where you are in the process, we are able to step in and give you support. We provide tools on how to operate your own digital media with a strategy that is unique and suited for your brand. We give creative direction to clients all over the globe either online or in-person. </span>
+    </p>
+    <a class="button" id="cd2" onclick="cd()">tell me more</a>
+    <script type="text/javascript">
+      var i=0;
+      function cd(){
+        if(!i){
+          document.getElementById("cd3").style.
+            display ="inline";
+          document.getElementById("cd").style.
+            display ="none";
+          document.getElementById("cd2").innerHTML ="finished";
+        i=1;
+      }
+      else{
+        document.getElementById("cd3").style.
+          display ="none";
+        document.getElementById("cd").style.
+          display ="inline";
+        document.getElementById("cd2").innerHTML ="tell me more";
+      i=0;
 
-  }
-}
-</script>
-
+      }
+    }
+    </script>
   </div>
 </div>
 
 <!-- --------Brand Partnership------ -->
-<div class="grid slideinleft flex-flip">
-  <div class="col-5_sm-12 bg-corpbranding">
-      <img class= "desktop-hide" src="images/corpbranding.jpg" alt="#">
+<!-- <div class="grid slideinleft flex-flip">
+  <div class="col-5_sm-5_xs-12 bg-brand-partnerships">
+      <img class= "desktop-hide" src="images//small/brandpartnership-01.jpg" alt="#">
   </div>
-    <div class="col-7_sm-12-middle padded">
+    <div class="col-7_sm-7_xs-12-middle padded">
       <h3> Brand Partnership</h3>
-        <h3 class="service-descriptions"> TikTok, Instagram, Facebook </h3>
-      <p> We already have a wide reach on social media, so if you are looking for ways to promote your brand we have so much fun in representing ethical and <span id="cb">...</span> <span class ="influencer" id= "cb3"> sustainable brands that we firmly believe in and can do so using our various sources of social media. <br> <br> <a href=influencer.html> Click here</a> for more information on our social media stats.
+      <h3 class="service-descriptions"> TikTok, Instagram, Facebook </h3>
+      <p> We already have a wide reach on social media if you are looking for ways to promote your brand. We have so much fun representing ethical and <span id="cb">...</span> <span class ="influencer" id= "cb3"> sustainable brands that we firmly believe in. <br> <br> <a href=influencer.html> Click here</a> for more information on our social media stats.
     </span>
-  </p>
-    <button type="button" id="cb2" onclick="cb()">tell me more</button>
+    </p>
+    <a class="button" id="cb2" onclick="cb()">tell me more</a>
     <script type="text/javascript">
       var i=0;
       function cb(){
@@ -327,85 +363,120 @@
         document.getElementById("cb2").innerHTML ="tell me more";
       i=0;
 
+        }
       }
-    }
-  </script>
-
-</div>
-
-
-
+    </script>
   </div>
+</div> -->
 </section>
 
-<section id="packages" class="light-bg packages centered">
-  <h2> Packages </h2>
-  <p class="padded-large"> These are our most popular packages. Let us know if there is something more specific that you need and we’ll gladly support you. If you're still unsure of exactly what it is that you need, we are more than happy to arrange a free consultation either in person or online.</p>
+<!-- reviews -->
+
+<section id="reviews" class="padded-4 grid-center">
+  <h2> Reviews </h2>
+</section>
+
+<section class="padded grid-center image-slider">
+
+  <!-- --------- JP Res -->
+
+  <div class="grid-center">
+    <div class="col-9_sm-12-middle padded-1">
+      <hr>
+      <p class="company emphasis">
+        Candy and the King built our JP Residences website and the result was perfect and exactly what we expected. It’s clear, modern and easy to navigate.
+        It was nice working with them. I would recommend without hesitation. <br>
+    <span> &#9733; &#9733; &#9733; &#9733; &#9733; </span>
+    </p>
+      <p> <a class="review" href ="https://jpresidences.com/" target="_blank">- Ms Pe, Owner of JP Residences in Laos </a></p>
+    </div>
+  </div>
+
+<!-- ---------- CazFit -->
+
+    <div class="grid-center">
+      <div class="col-9_sm-12-middle  padded-1">
+        <hr>
+        <p class="company emphasis">
+          In 2016, Candy and Jonty helped me turn my passion into a career. We brainstormed together and got all my ideas out on paper which was the beginning of my fitness business, CazFit. (I still have that piece of paper we scribbled all my ideas on.) They also did some corporate branding for me (I have 4 pages of different logo designs she helped me with, they also designed my double-sided business cards and my invoice template). <br>Their work ethic went above and beyond my expectations, and Candy made herself available to my requests at all hours. <br> I also hired them to consult me with my social media pages. After  helping me setup my business Facebook page and Instagram page, they taught me the basics of social media management so I have been able to manage my accounts myself. <br>Their service really is incredible and I'm definitely going to be going to them to redesign my website. I wouldn't go to anyone else! 😁  <br>
+        <span> &#9733; &#9733; &#9733; &#9733; &#9733; </span>
+        </p>
+        <p> <a class="review" href ="https://www.facebook.com/cazfitsa/" target="_blank">- Caroline, founder of CazFit in South Africa </a> </p>
+      </div>
+    </div>
+
+<!-- ----------JSib -->
+
+      <div class="grid-center">
+        <div class="col-9_sm-12-middle  padded-1">
+          <hr>
+          <p class="company emphasis">
+            I hired Jonty and Candy for a four month project. We ended up extended our contract as I was well pleased with their work and wanted them to manage my business Facebook page. During the four months, they did corporate branding that included business cards for all my office staff, a letterhead, email signatures, social media icons and many more branded stationary items. <br> They also managed my business Facebook page which did very well under their care.<br>
+          <span> &#9733; &#9733; &#9733; &#9733; &#9733; </span>
+          </p>
+          <p> <a class="review" href ="https://www.jsib.co.za/" target="_blank">- Jerome, CEO of JSib in South Africa </a> </p>
+        </div>
+      </div>
+  </div>
+<!-- ------------planet b -->
+  <div class="grid-center">
+    <div class="col-9_sm-12-middle  padded-1">
+      <hr>
+      <p class="company emphasis">
+        We hired Candy and the King to develop a simple website for our young readers. We wanted a one page website so parents could easily download a reading of Doug the Litterbug. We are happy with the outcome! <br>
+      <span> &#9733; &#9733; &#9733; &#9733; &#9733; </span>
+      </p>
+      <p> <a class="review" href ="https://planetbprojects.com/" target="_blank">- Candice, Author of Doug the Litterbug, Laos </a> </p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ----------- get a quote -------- -->
+
+<section id="quote" class="light-bg packages centered">
   <div class="grid padded-1">
+    <div class="col-3-middle mob-hide centered"> </div>
+    <div class="col-6_sm-12 padded-1">
+      <div class="pricing card bg-quote padded" id="quote">
+
+          <div class="col-12-middle">  <h2> - Get a Quote - </h2> </div>
+          <div class="grid">
 
 
-    <!-- <div class="col-3_sm-12 padded-1">
-      <div class="pricing card">
-        <h5> Entrepreneur Kit <br><br>﹋</h5>
-        <p> For start-up companies looking for:</p>
+            <div class="col-12-middle_sm-12 centered">
+               <p> Whether you'd like to colaborate with us, have a website built or exchange services, we'd be happy to have a chat. Our quotes come with a FREE consultation that we'll do either in person or video chat. <br>After you've filled out the form below, we'll organise a time to meet. </p>
+              <p class=" wave centered"><img class="waves" src="images/wave.gif" alt="#"></p>
+             </div>
 
-        <ul class="no-bullets">
-          <li> Web Development </li>
-          <li> Content Creation </li>
-          <li> Creative Directing </li>
-          <li> Corporate Branding </li>
-          <li> Brand Partnership </li>
-        </ul>
-        <h5>﹏</h5>
-        <p class="price">get a quote</p>
-      </div>
-    </div> -->
+    <div class="col-3-middle mob-hide centered"> </div>
 
-    <div class="col-4_sm-12 padded-1">
-      <div class="pricing card">
-        <h5> Online Social Kit <br><br>﹋</h5>
-        <p> For brands wanting a stronger <br>online presence.</p>
+           </div>
 
-        <ul class="no-bullets">
+           <div class="col-3 mob-hide"> </div>
+            <form class="col-6-middle_sm-12 grid-center" action="https://formspree.io/hello@candyandtheking.com" method="POST">
 
-          <li> Creative Directing </li>
-          <li> Brand Partnership </li>
+              <div class="col-6_sm-12">
+                <input type="text" name="name" placeholder="Your Name">
+              </div>
 
+              <div class="col-6_sm-12">
+                <input type="email" name="_replyto" placeholder="Your Email">
+              </div>
 
-        </ul>
-        <h5>﹏</h5>
-        <p class="price">get a quote</p>
-      </div>
+              <div class="col-12">
+                <input type="text" name="subject" placeholder="Subject (Enquiry/Web Development/Content Creation/etc)">
+              </div>
+
+              <div class="col-12">
+                <textarea placeholder="Your Message"></textarea>
+                <input type="submit" value="Send" class="button">
+              </div>
+              <div class="col-1 mob-hide"> </div>
+
     </div>
 
-    <div class="col-4_sm-12 padded-1">
-      <div class="pricing card featured">
-        <h5> Classic Kit <br><br>﹋</h5>
-        <p> Any brand or business needing a website. This kit includes all aspects of web development.</p>
 
-        <ul class="no-bullets">
-          <li class="transparent"> .</li>
-          <li> Web Development </li>
-
-
-        </ul>
-        <h5>﹏</h5>
-        <p class="price">get a quote</p>
-      </div>
-    </div>
-
-    <div class="col-4-middle_sm-12 padded-1">
-      <div class="pricing card">
-        <h5> The Custom Kit <br><br>﹋</h5>
-        <ul class="no-bullets">
-        <p> If you know exactly what you need, that’s great! Create your own package perfectly fitted for your brand’s needs.</p>
-        <li class="transparent"> .</li>
-
-        </ul>
-        <h5>﹏</h5>
-        <p class="price">get a quote</p>
-      </div>
-    </div>
 
 
 </section>
@@ -430,32 +501,6 @@
 
     <!-- -gallery end  -->
 
-    <!-- -contact us  -->
-
-    <section class="grid bg-contact dark-bg padded" id="contact">
-      <div class="col-12-middle"><h2> Work with us </h2> </div>
-      <div class="grid">
-        <div class="col-2-middle mob-hide centered"> </div>
-        <div class="col-8-middle_sm-12 centered">
-           <p> Whether you'd like to colaborate with us, have a website built or exchange services, we'd be happy to have a chat. We're always excited about new opportunites and possibilites.</p>
-           <p> ﹋</p>
-         </div>
-         <div class="col-2-middle mob-hide centered"> </div>
-       </div>
-        <form class="col-12-middle grid-center" action="https://formspree.io/hello@company.com" method="POST">
-          <div class="col-6_sm-12">
-            <input type="text" name="name" placeholder="Your Name">
-          </div>
-          <div class="col-6_sm-12">
-            <input type="email" name="_replyto" placeholder="Your Email">
-          </div>
-          <div class="col-12">
-            <textarea placeholder="Your Message"></textarea>
-            <input type="submit" value="Send" class="button">
-          </div>
-    </section>
-
-    <!-- -contact end  -->
 
     <!-- - footer - -->
 
@@ -484,11 +529,10 @@
       <p class="desktop-hide squiggle">  ﹏ </p>
     </div>
 
-    <div class="col-4-middle_sm-12-right built">
-      <p> Website built by <a href="https://www.candyandtheking.com"> Candy and the King </a> </p>
-      <p> © by <a href="https://www.candyandtheking.com">candyandtheking.com </a></p>
-      <p> hello@candyandtheking.com</p>
-
+    <div class="col-12-middle built">
+      <p> <a href="https://www.candyandtheking.com"> Website by Candy and the King </a>
+      <a href="https://www.candyandtheking.com"> © by candyandtheking.com </a>
+      hello@candyandtheking.com</p>
     </div>
 
     <!-- -footer end- -->
@@ -497,13 +541,13 @@
       <!--  This is my javascript, first jquery then any custom scripts -->
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 
 
-
+<!-- -_______ for the hamburger _________ -->
       <script>
-
         $(".hamburger").click(function(){
 
           $(this).toggleClass('active');
@@ -517,6 +561,9 @@
 
         });
       </script>
+
+      <!-- _______anything that fades in on scroll__________ -->
+
     <script>
       $(document).ready(function() {
           $(window).scroll( function(){
@@ -530,39 +577,64 @@
           });
       });
     </script>
+
+    <!-- _______anything that slides in from right__________ -->
+
     <script>
       $(document).ready(function() {
         $(window).scroll( function(){
           $('.slideinright').each( function(i){
-            var bottom_of_element = $(this).offset().top +
-            $(this).outerHeight();
+            var bottom_of_element = $(this).offset().top;
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if( bottom_of_window > bottom_of_element ){
-                $(this).animate({'margin-left':'0px'},2000);
+                $(this).animate({'margin-left':'0px'},2500);
             }
             });
           });
       });
     </script>
 
+    <!-- _______anything that slides in from left__________ -->
+
     <script>
     $(document).ready(function() {
       $(window).scroll( function(){
         $('.slideinleft').each( function(i){
-            var bottom_of_element_left = $(this).offset().top +
-            $(this).outerHeight();
+            var bottom_of_element_left = $(this).offset().top;
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if( bottom_of_window > bottom_of_element_left ){
-                $(this).animate({'margin-left':'0px'},2000);
+                $(this).animate({'margin-left':'0px'},2500);
             }
           });
         });
       });
     </script>
 
+    <!-- _______for the review________ -->
+
+    <script src="slick/slick.min.js"></script>
+    <script>
+
+    $(document).ready(function(){
+      $('.image-slider').slick({
+        draggable: true,
+        dots: true,
+        adaptiveHeight: true,
+        autoplaySpeed: 5000
+      });
+    });
+
+
+    $(function(){
+              $("#chkbtn").on('click',function() {
+                  $(this).hide();
+                  $("#hidden-div").show();
+              });
+          });
+    </script>
 
 
 
 
-
-    </body>
+  </body>
+</html>

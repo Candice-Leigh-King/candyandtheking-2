@@ -1,3 +1,5 @@
+var threshold = 0;
+
 $(document).ready(function() {
     $(window).scroll( function(){
       $('.fadein').each( function(i){
