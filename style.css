@@ -554,7 +554,7 @@
     background-position: center;
     min-height: 70vh;
     padding-top: 6rem;
-    background-attachment: fixed; 
+    background-attachment: fixed;
   }
 
   .mob-bg2 {
@@ -574,7 +574,16 @@
     background-position: center;
     min-height: 70vh;
     padding-top: 6rem;
+    background-attachment: scroll;
   }
+
+  .mob-bg1 {
+    background-image: url('images/small/mob-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+    padding-top: 6rem;
+  background-attachment: scroll;}
 
 }}
 
