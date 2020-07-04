@@ -555,6 +555,8 @@
     min-height: 70vh;
     padding-top: 6rem;
     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 
 
   }
@@ -566,6 +568,8 @@
     min-height: 70vh;
     padding-top: 6rem;
     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 
   }
 
