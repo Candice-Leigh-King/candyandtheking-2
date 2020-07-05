@@ -569,7 +569,6 @@
   @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
     @media {
       .safari6 {
-        .mob-bg1 {
             background-image: url('images/small/mob-bg.jpg');
             background-size: cover;
             background-position: center;
@@ -577,7 +576,7 @@
             padding-top: 6rem;
             }
 
-        .mob-bg2 {
+        .safari61 {
             background-image: url('images/small/mob-bg2.jpg');
             background-size: cover;
             background-position: center;
