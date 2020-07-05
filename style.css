@@ -555,7 +555,6 @@
     min-height: 70vh;
     padding-top: 6rem;
     background-attachment: fixed;
-    -webkit-print-color-adjust: exact;
   }
 
   .mob-bg2 {
@@ -565,29 +564,29 @@
     min-height: 70vh;
     padding-top: 6rem;
     background-attachment: fixed;
-    -webkit-print-color-adjust: exact;
   }
 
-  @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media
-{
-  .mob-bg2 {
-    background-image: url('images/small/mob-bg2.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 70vh;
-    padding-top: 6rem;
-    background-attachment: scroll;
-  }
+  @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+    @media {
+      .safari6 {
+        .mob-bg1 {
+            background-image: url('images/small/mob-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            min-height: 70vh;
+            padding-top: 6rem;
+            }
 
-  .mob-bg1 {
-    background-image: url('images/small/mob-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 70vh;
-    padding-top: 6rem;
-    background-attachment: scroll;}
-
-}}
+        .mob-bg2 {
+            background-image: url('images/small/mob-bg2.jpg');
+            background-size: cover;
+            background-position: center;
+            min-height: 70vh;
+            padding-top: 6rem;
+          }
+        }
+    }
+}
 
   .mob-img img {
     background-size: cover;
