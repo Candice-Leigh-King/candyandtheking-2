@@ -566,9 +566,9 @@
     background-attachment: fixed;
   }
 
-  @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+  @media not all and (min-resolution:.001dpcm) {
     @media {
-      .safari6 {
+        .safari10 {
             background-image: url('images/small/mob-bg.jpg');
             background-size: cover;
             background-position: center;
@@ -576,7 +576,7 @@
             padding-top: 6rem;
             }
 
-        .safari61 {
+        .safari101 {
             background-image: url('images/small/mob-bg2.jpg');
             background-size: cover;
             background-position: center;
