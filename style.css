@@ -555,6 +555,7 @@
     min-height: 70vh;
     padding-top: 6rem;
     background-attachment: fixed;
+    -webkit-print-color-adjust: exact;
   }
 
   .mob-bg2 {
@@ -564,6 +565,7 @@
     min-height: 70vh;
     padding-top: 6rem;
     background-attachment: fixed;
+    -webkit-print-color-adjust: exact;
   }
 
   @media only screen
