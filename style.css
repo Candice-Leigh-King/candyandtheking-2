@@ -566,26 +566,29 @@
     background-attachment: fixed;
   }
 
-  @media not all and (min-resolution:.001dpcm) {
-    @media {
-        .safari10 {
+  @media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .mob-bg1  {
             background-image: url('images/small/mob-bg.jpg');
             background-size: cover;
             background-position: center;
             min-height: 70vh;
             padding-top: 6rem;
+            background-attachment: initial;
             }
 
-        .safari101 {
+        .mob-bg2 {
             background-image: url('images/small/mob-bg2.jpg');
             background-size: cover;
             background-position: center;
             min-height: 70vh;
             padding-top: 6rem;
+            background-attachment: initial;
           }
         }
-    }
-}
+
 
   .mob-img img {
     background-size: cover;
