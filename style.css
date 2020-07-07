@@ -574,7 +574,7 @@
   and (-webkit-min-device-pixel-ratio: 2) {
       .mob-bg1  {
             background-attachment: initial;
-              background-position: 20% 50%;
+              background-position: 20% 20%;
             }
 
         .mob-bg2 {
