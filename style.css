@@ -555,7 +555,7 @@
     min-height: 70vh;
     padding-top: 6rem;
     background-attachment: fixed;
-    -webkit-print-color-adjust: exact;
+
   }
 
   .mob-bg2 {
@@ -565,28 +565,18 @@
     min-height: 70vh;
     padding-top: 6rem;
     background-attachment: fixed;
-    -webkit-print-color-adjust: exact;
+
   }
 
   @media only screen
   and (min-device-width: 375px)
-  and (max-device-width: 667px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2) {
       .mob-bg1  {
-            background-image: url('images/small/mob-bg.jpg');
-            background-size: cover;
-            background-position: center;
-            min-height: 70vh;
-            padding-top: 6rem;
             background-attachment: initial;
             }
 
         .mob-bg2 {
-            background-image: url('images/small/mob-bg2.jpg');
-            background-size: cover;
-            background-position: center;
-            min-height: 70vh;
-            padding-top: 6rem;
             background-attachment: initial;
           }
         }
