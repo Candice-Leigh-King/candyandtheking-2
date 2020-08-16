@@ -843,10 +843,6 @@
     max-width: 100%;
   }
 
-  .embed-container.vertical {
-    padding-bottom: 162.25%;
-  }
-
   .embed-container iframe,
   .embed-container object,
   .embed-container embed {
