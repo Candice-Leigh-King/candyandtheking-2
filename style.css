@@ -218,7 +218,8 @@
     color: rgb(222, 156, 114);
     text-align: center;
     font-weight: 300;
-    padding: 2% 5% 2% 5%;}
+    padding: 2% 5% 2% 5%;
+  }
 
     .bg-contact h2 {
       color: white;
@@ -228,7 +229,8 @@
     .bg-contact p {color: white;}
 
     .stats h2 {
-    color: #00b8ba;}
+    color: #00b8ba;
+    text-align: center;}
 
     .fade-in-section {
       opacity: 0;
