@@ -63,7 +63,7 @@
     background-color: rgb(205, 230, 236);
     padding-top: 5%;}
 
-    
+
 
   .light-text   { color: white; }
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
@@ -219,12 +219,19 @@
   .bg-gallery2 {
     background-color: rgb(238, 209, 190);
   }
+
+  .bg-gallery2 h2  {
+    color: rgb(222, 156, 114);
+    text-align: center;
+    font-weight: 300;
+    padding: 0% 5% 0% 5%;}
+
   .bg-gallery h2  {
     color: rgb(222, 156, 114);
     text-align: center;
     font-weight: 300;
     padding: 0% 5% 0% 5%;
-    background-color:
+
   }
 
     .bg-contact h2 {
