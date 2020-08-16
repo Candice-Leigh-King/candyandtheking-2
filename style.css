@@ -44,7 +44,9 @@
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
   .padded-large {padding: 2% 20%;}
-  .padded-side {padding: 0% 5% 3%}
+  .padded-side {padding: 0% 5% 3%;}
+  .padded-left {padding: 0rem 0rem 0rem 1rem;}
+  .padded-right {padding: 0rem 1rem 0rem 0rem;}
 
   .margin-top {margin-top:4rem;}
 
@@ -853,7 +855,7 @@
     height: 100%;
   }
 video {
-  
+
   max-width: 100%;
   height: auto;
   object-fit: cover;
