@@ -63,9 +63,21 @@
     background-color: rgb(205, 230, 236);
     padding-top: 5%;}
 
-    .stats2 {
-      background-color: rgb(205, 230, 236);
+    .our-team h2 {
+    color: rgb(222, 156, 114);
+    text-align: center;
+    font-weight: 300;
+    padding: 0% 5% 0% 5%;}
+
+    .our-team {
+      background-color: #ffdfc3;
       padding-top: 5%;}
+
+    .our-team a {
+      text-decoration: none;
+      color: #575757;}
+
+
 
   .light-text   { color: white; }
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
