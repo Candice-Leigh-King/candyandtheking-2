@@ -214,6 +214,9 @@
 
   .lovethekings img{max-height: 4.5rem;}
 
+  .bg-gallery {
+    background-color: rgb(238, 189, 157);
+  }
   .bg-gallery h2  {
     color: rgb(222, 156, 114);
     text-align: center;
