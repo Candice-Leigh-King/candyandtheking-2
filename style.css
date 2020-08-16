@@ -219,6 +219,7 @@
     text-align: center;
     font-weight: 300;
     padding: 2% 5% 2% 5%;
+    background-color:
   }
 
     .bg-contact h2 {
@@ -1025,6 +1026,10 @@ video {
 .stats a {
   text-decoration: none;
   color: #575757;}
+
+  .bg-gallery a {
+    text-decoration: none;
+    color: #575757;}
 
 .stat-cards:hover {border: 2px solid #abb8bf; }
 
