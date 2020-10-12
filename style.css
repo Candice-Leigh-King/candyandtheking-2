@@ -24,8 +24,7 @@
     font-family: 'Playfair Display', serif;
     font-weight: 300;
     color: #575757;
-    width: 100vw;
-    overflow-x: hidden;
+  
   }
 
 
@@ -770,6 +769,19 @@
     min-height: 100vh;
 
   }
+
+  .bg-projects h2 {
+    color: #00b8ba;
+    text-align: center;
+    font-weight: 300;}
+
+    .bg-projects {
+      background-color: rgb(205, 230, 236);
+      /* margin-top: 5rem; */
+      font-size: 5.5rem;
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;}
 
   .bg-meetus {
     background-image: url('images/meet-01-2.jpg');
