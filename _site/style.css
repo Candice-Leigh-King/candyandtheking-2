@@ -24,8 +24,7 @@
     font-family: 'Playfair Display', serif;
     font-weight: 300;
     color: #575757;
-    width: 100vw;
-    overflow-x: hidden;
+
   }
 
 
@@ -68,7 +67,10 @@
     text-align: center;
     font-weight: 300;
     padding: 0% 5% 0% 5%;}
-
+    .shopify-buy-button-styles {
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+    }
     .our-team {
       background-color: #ffdfc3;
       padding-top: 5%;}

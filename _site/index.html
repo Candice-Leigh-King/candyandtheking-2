@@ -120,7 +120,7 @@
           <a href="/index#gallery"> Gallery </a>
           <a href="/work-with-us.html"> Contact </a>
           <a> ﹏</a>
-    </div>
+        </div>
 
     <p class="grid">
     <a class="col-4 nav-social" href="https://www.tiktok.com/@candy_and_the_king" target="_blank"> TikTok </a>
@@ -303,23 +303,20 @@
       <h5><br>﹋</h5>
         <p> <img src="images/freebie-slow-arrow-down.gif"></p>
 
-        <a href="e-book/creating-a-travel-lifestyle-teaching-edition-candy-and-the-king.pdf" download target="_blank" class="freebiebutton"> 1. Download Now </a>
+                <form class="col-12-middle grid-center" action="https://formspree.io/hello@candyandtheking.com" method="POST">
 
-        <form class="col-12-middle grid-center" action="https://formspree.io/hello@candyandtheking.com" method="POST">
+                  <div class="col-6_sm-12">
+                    <input type="email" name="_replyto" placeholder="1. your email">
+                  </div>
 
-          <div class="col-6_sm-12">
-            <input type="email" name="_replyto" placeholder="2. your email">
-          </div>
+                  <div class="col-6_sm-12">
+                    <input type="submit" value="2. submit" class="buttonform">
+                  </div>
 
-          <div class="col-6_sm-12">
-            <input type="submit" value="3. submit" class="buttonform">
-          </div>
-
-
+                  <a href="/e-book/creating-a-travel-lifestyle-teaching-edition-candy-and-the-king.pdf" download target="_blank" class="freebiebutton"> 3. Download Now </a>
 
       </div>
     </div>
-  </div>
   <div class="col-4_sm-12 padded-1 mob-hide"></div>
 </section>
 
@@ -386,7 +383,7 @@
           </div>
 
           <div class="col-12-middle built">
-            <p> <a href="https://www.candyandtheking.com"> Website by Candy and the King </a>
+            <p> <a href="https://www.kingcode.uk"> Website by King Code </a>
             <a href="https://www.candyandtheking.com"> © by candyandtheking.com </a>
             hello@candyandtheking.com</p>
 
@@ -397,82 +394,98 @@
 
           <!--  This is my javascript, first jquery then any custom scripts -->
 
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 
 
+ <!-- -_______ for the hamburger _________ -->
+       <script>
+         $(".hamburger").click(function(){
 
-            <script>
+           $(this).toggleClass('active');
+           $(".mobile-nav").fadeToggle();
+         });
 
-              $(".hamburger").click(function(){
+           $(".page").click(function(){
 
-                $(this).toggleClass('active');
-                $(".mobile-nav").fadeToggle();
-              });
+             $(this).toggleClass('active');
+             $(".mobile-nav").fadeToggle();
 
-                $(".page").click(function(){
-
-                  $(this).toggleClass('active');
-                  $(".mobile-nav").fadeToggle();
-
-              });
-            </script>
-        <script>
-            $(document).ready(function() {
-                $(window).scroll( function(){
-                  $('.fadein').each( function(i){
-                        var bottom_of_element = $(this).offset().top + $(this).outerHeight();
-                        var bottom_of_window = $(window).scrollTop() + $(window).height();
-                        if( bottom_of_window > bottom_of_element ){
-                          $(this).animate({'opacity':'1'},1000);
-                        }
-                    });
-                });
-            });
-            </script>
-
-            <!-- -------- this fades in slowly  -->
-
-        <!-- ------------slide in from left -->
-        <script>
-        $(document).ready(function() {
-          $(window).scroll( function(){
-            $('.slideinleft').each( function(i){
-                var bottom_of_element_left = $(this).offset().top;
-                var bottom_of_window = $(window).scrollTop() + $(window).height();
-                if( bottom_of_window > bottom_of_element_left ){
-                    $(this).animate({'margin-left':'0px'},2000);
-                }
-              });
-            });
-          });
+         });
        </script>
 
-       <script src="script.js"></script>
+       <!-- _______anything that fades in on scroll__________ -->
 
-       <!-- _______for the review________ -->
+     <script>
+       $(document).ready(function() {
+           $(window).scroll( function(){
+             $('.fadein').each( function(i){
+                   var bottom_of_element = $(this).offset().top + $(this).outerHeight();
+                   var bottom_of_window = $(window).scrollTop() + $(window).height();
+                   if( bottom_of_window > bottom_of_element ){
+                     $(this).animate({'opacity':'1'},2000);
+                   }
+               });
+           });
+       });
+     </script>
 
-        <script src="slick/slick.min.js"></script>
-         <script>
+     <!-- _______anything that slides in from right__________ -->
 
-         $(document).ready(function(){
-           $('.image-slider').slick({
-             draggable: true,
-             dots: true,
-             adaptiveHeight: true,
-             autoplaySpeed: 5000
+     <script>
+       $(document).ready(function() {
+         $(window).scroll( function(){
+           $('.slideinright').each( function(i){
+             var bottom_of_element = $(this).offset().top;
+             var bottom_of_window = $(window).scrollTop() + $(window).height();
+             if( bottom_of_window > bottom_of_element ){
+                 $(this).animate({'margin-left':'0px'},2500);
+             }
              });
            });
+       });
+     </script>
+
+     <!-- _______anything that slides in from left__________ -->
+
+     <script>
+     $(document).ready(function() {
+       $(window).scroll( function(){
+         $('.slideinleft').each( function(i){
+             var bottom_of_element_left = $(this).offset().top;
+             var bottom_of_window = $(window).scrollTop() + $(window).height();
+             if( bottom_of_window > bottom_of_element_left ){
+                 $(this).animate({'margin-left':'0px'},2500);
+             }
+           });
+         });
+       });
+     </script>
+
+     <!-- _______for the review________ -->
+
+     <script src="slick/slick.min.js"></script>
+     <script>
+
+     $(document).ready(function(){
+       $('.image-slider').slick({
+         draggable: true,
+         dots: true,
+         adaptiveHeight: true,
+         autoplaySpeed: 5000
+       });
+     });
 
 
-          $(function(){
-                   $("#chkbtn").on('click',function() {
-                       $(this).hide();
-                       $("#hidden-div").show();
-                     });
-                 });
-         </script>
+     $(function(){
+               $("#chkbtn").on('click',function() {
+                   $(this).hide();
+                   $("#hidden-div").show();
+               });
+           });
+     </script>
 
 </body>
 </html>
