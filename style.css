@@ -1185,6 +1185,12 @@ video {
     font-family:'Roboto Condensed', sans-serif;
 }
 
+.price-tag3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family:'Roboto Condensed', sans-serif;
+}
+
 
 .linedout {text-decoration: line-through;}
 
