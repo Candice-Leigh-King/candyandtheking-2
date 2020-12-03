@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+ <html>
+
+   <head>
+
+ <!-- Meta Data -->
+
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-PKB6S8JD57"></script>
+ <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PKB6S8JD57');
+ </script>
+
+
+
+   <meta charset="utf-8">
+
+   <!-- Meta data for SEO purposes. -->
+   <title> {{page.title}} </title>
+   <meta name="description" content="{{page.meta-description}}">
+   <meta name="keywords" content="{{page.meta-keywords}}">
+
+   <!-- meta data to tell the browser that your devide is responsive -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="robots" content="index, follow">
+   <meta name="mobile-web-app-capable" content="yes">
+   <meta name="apple-mobile-web-app-capable" content="yes">
+   <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+   <!-- meta data to verify web with google-->
+    <meta name="google-site-verification" content="OrXiqpLAYW66n20XsZIttR0LrQCm262zlzwy1tLRUYs" />
+
+
+   <!-- link to browser icon tag -->
+   <link rel="shortcut icon" type="image/png" href="images/browser-icon-candy-and-the-king-01.png">
+
+   <!--  Social media sharing META Tags -->
+    <meta property="og:title" content="{{page.socialtitle}}">
+    <meta property="og:description" content="{{page.socialmeta-description}}">
+    <meta property="og:image" content="{{page.socialfeatured-image_path}}">
+    <meta property="og:url" content="{{page.socialurl}}">
+    <meta name="og:site_name" content="{{page.site-name}}">
+
+    <!-- twitter card -->
+
+    <meta name="twitter:card" content="{{page.summary}}" />
+    <meta name="twitter:description" content="{{page.twitter-description}}" />
+    <meta name="twitter:title" content="{{page.twitter-title}}" />
+    <meta name="twitter:site" content="@candyandtheking" />
+    <meta name="twitter:image" content="{{page.twitter-image}}" />
+    <meta name="twitter:creator" content="@candyandtheking" />
+    <meta name="twitter:image:alt" content="{{page.twitter-image-alt}}Candy and the King are not only an influencer couple who travel and laugh a lot, but they are also web developers and content creators."
+
+
+  <!-- end of meta tags -->
+
+    <!-- Google Fonts -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+<!-- christmas font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+    <!-- Gridlex -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css"></link>
+
+    <!-- Font Awesome Version 5 for Icons  -->
+
+  <!-- iconify icons -->
+  <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+
+   <!-- Magnific Popup for lightbox galleries   -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+
+
+   <!--  Javascript for the buy button -->
+   <script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'creators-christmas-special.myshopify.com',
+      storefrontAccessToken: '1e641f0a3fac470d49b07687afc34d38',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '6107808301227',
+        node: document.getElementById('product-component-1606904478899'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "font-family": "Playfair Display, serif",
+        "border": "#165b33 2px solid",
+        ":hover": {
+          "background-color": "white",
+          "border": "#14522e 2px solid",
+          "color": "#165b33"
+        },
+        "background-color": "#165b33",
+        ":focus": {
+          "background-color": "white",
+          "border": "#14522e 2px solid",
+          "color": "#165b33"
+        },
+        "border-radius": "5px",
+        "padding-left": "20px",
+        "padding-right": "20px"
+      }
+    },
+    "buttonDestination": "checkout",
+    "contents": {
+      "img": false,
+      "title": false,
+      "price": false
+    },
+    "text": {
+      "button": "Buy now"
+    },
+    "googleFonts": [
+      "Playfair Display"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-family": "Playfair Display, serif",
+        "border": "#165b33 2px solid",
+        ":hover": {
+          "background-color": "white",
+          "border": "#14522e 2px solid",
+          "color": "#165b33"
+        },
+        "background-color": "#165b33",
+        ":focus": {
+          "background-color": "white",
+          "border": "#14522e 2px solid",
+          "color": "#165b33"
+        },
+        "border-radius": "5px",
+        "padding-left": "20px",
+        "padding-right": "20px"
+      }
+    },
+    "googleFonts": [
+      "Playfair Display"
+    ],
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Playfair Display, serif",
+        "border": "#165b33 2px solid",
+        ":hover": {
+          "background-color": "white",
+          "border": "#14522e 2px solid",
+          "color": "#165b33"
+        },
+        "background-color": "#165b33",
+        ":focus": {
+          "background-color": "white",
+          "border": "#14522e 2px solid",
+          "color": "#165b33"
+        },
+        "border-radius": "5px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    },
+    "googleFonts": [
+      "Playfair Display"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Playfair Display, serif",
+      "border": "#165b33 2px solid",
+        "background-color": "#165b33",
+        ":hover": {
+          "background-color": "white",
+          "border": "#14522e 2px solid",
+          "color": "#165b33"
+        },
+        ":focus": {
+          "background-color": "white",
+          "border": "#14522e 2px solid",
+          "color": "#165b33"
+        }
+      }
+    },
+    "googleFonts": [
+      "Playfair Display"
+    ]
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+    <!-- our own custom stylesheet -->
+
+    <link rel="stylesheet" href="style.css"/>
+
+
+</head>
+
+<body>
+        <!-- header- -->
+
+  <header class="grid fixed bundle">
+    <div class="col-4_sm-6-middle left christmaslogo grow">
+      <a href="bundle.html">
+      <img src="images/merry-christmas.gif" alt="Candy and the King travel and content creator logo">
+      </a>
+    </div>
+    <nav class="col-8-middle right christmas-header mob-hide">
+      <a href="#inside"> what's inside? </a>
+      <a href="#peep"> quick look </a>
+      <a href="#team"> Meet the creators</a>
+      <a href="work-with-us.html"> Contact </a>
+    </nav>
+  </header>
+
+  <section class="grid fixed desktop-hide centered">
+    <div class='col-12-middle snow hamburger'>
+      <span class="iconify" data-icon="emojione-monotone:christmas-tree" data-inline="false"></span>
+
+      </div>
+      <!-- only appears when nav is open -->
+
+      <div class='grid christmas-nav mobile-nav page'>
+        <div class="col-12 padded-top">
+          <a href="#inside"> what's inside? </a>
+          <a href="#peep"> quick look </a>
+          <a href="#team"> Meet the creators</a>
+          <a href="/work-with-us.html"> Contact </a>
+        </div>
+    </div>
+
+  </section>
+
+        <!-- -header end  -->
+        {{content}}
+
+        <!-- - footer - -->
+        <div class="col-12-middle centered back-to-top">
+          <p class="back-to-top">
+
+              <a href="/bundle#vid"> ︽<br> back to top</a>
+          </p>
+
+        </div>
+
+          <footer class="grid-center christmas-footer centered">
+
+
+
+              <!-- column -->
+              <div class="col-4_sm-12 grow padded-logo">
+                <a href="index.html">
+                <img src="images/logo-01.png" alt="Candy and the King travel and content creator logo">
+                </a>
+
+              </div>
+
+              <!-- column -->
+              <div class="col-8_sm-12-middle small-font christmas-built right padded-sides">
+                <div class="inline ">
+                 <a class="padded-sides-footer" href="https://kingcode.uk/"> Website by King Code </a> |
+                  <a class="padded-sides-footer" href="https://www.kingcode.uk"> Terms & Conditions </a> |
+                  <a class="padded-sides-footer" href="https://candyandtheking.com/"> © by candyandtheking.com </a> |
+                  <a class="padded-sides-footer">  hello@candyandtheking.com </a>
+                </div>
+                <nav class="inline socials ">
+                  <div class="col-4-middle_sm-12 right centered inline social">
+                    <!-- -----TT---- -->
+                        <a class= "social" href="https://www.tiktok.com/@candy_and_the_king" target="_blank">
+                        <span class="iconify" data-icon="simple-icons:tiktok" data-inline="false"></span></a>
+                        <!-- ----IG---- -->
+
+                  <a class= "social" href="https://www.instagram.com/candy_and_the_king/" target="_blank">
+                    <span class="iconify" data-icon="entypo-social:instagram" data-inline="false"></span></a>
+
+                    <a class= "social" href="https://m.youtube.com/c/candyandtheking" target="_blank">
+                    <span class="iconify" data-icon="ion:logo-youtube" data-inline="false"></span></a>
+
+                  <a class= "social" href="https://www.facebook.com/candy.and.the.king/" target="_blank">
+                  <span class="iconify" data-icon="entypo-social:facebook" data-inline="false"></span></a>
+
+
+                  <a class= "social" href="mailto:hello@candyandtheking.com"><span class="iconify" data-icon="topcoat:email" data-inline="false"></span></a>
+
+                </div>
+                </nav>
+              </div>
+            </footer>
+
+
+
+          <!-- -footer end- -->
+
+
+          <!--  This is my javascript, first jquery then any custom scripts -->
+
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+
+ <!-- -_______ for the hamburger _________ -->
+       <script>
+         $(".hamburger").click(function(){
+
+           $(this).toggleClass('active');
+           $(".mobile-nav").fadeToggle();
+         });
+
+           $(".page").click(function(){
+
+             $(this).toggleClass('active');
+             $(".mobile-nav").fadeToggle();
+
+         });
+       </script>
+
+       <!-- _______anything that fades in on scroll__________ -->
+
+     <script>
+       $(document).ready(function() {
+           $(window).scroll( function(){
+             $('.fadein').each( function(i){
+                   var bottom_of_element = $(this).offset().top + $(this).outerHeight();
+                   var bottom_of_window = $(window).scrollTop() + $(window).height();
+                   if( bottom_of_window > bottom_of_element ){
+                     $(this).animate({'opacity':'1'},2000);
+                   }
+               });
+           });
+       });
+     </script>
+
+
+
+
+</body>
+</html>
