@@ -612,7 +612,7 @@
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color:  rgba(211,211,211,0.5);
+  background-color:  rgba(211,211,211,0.8);
   opacity: 100%;
 }
 
@@ -631,7 +631,7 @@
 }
 
 .christmas-nav a {color:  #b3000c;
-font-size: 1rem;
+font-size: 1.4rem;
 text-transform: uppercase;}
 
   /* -- Footer -- */
