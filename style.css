@@ -1178,6 +1178,14 @@ video {
 
 }
 
+  .price-tag2 {
+    margin-top: -2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family:'Roboto Condensed', sans-serif;
+}
+
+
 .linedout {text-decoration: line-through;}
 
   .card .company {
