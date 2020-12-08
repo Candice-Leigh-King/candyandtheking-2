@@ -1083,6 +1083,7 @@ video {
     font-size: 0.8rem;
     vertical-align: top;
     text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
   }
 
   input:focus,
