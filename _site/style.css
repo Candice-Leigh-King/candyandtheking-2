@@ -1170,10 +1170,17 @@ video {
     text-transform: uppercase;
     padding: 2%;
     font-family:'Roboto Condensed', sans-serif;
+    color: #b3000c;
 }
 
 .christmas-sale {
   color: #b3000c;
+  padding: 0% 2%;
+
+}
+
+.christmas-sale1 {
+  color: rgb(22,91,51);
   padding: 0% 2%;
 
 }
@@ -1195,7 +1202,7 @@ video {
 .linedout {text-decoration: line-through;}
 
   .card .company {
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
   }
   .company {margin-bottom: 2rem;}
 
