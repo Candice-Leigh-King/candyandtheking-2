@@ -20,9 +20,9 @@
    <meta charset="utf-8">
 
    <!-- Meta data for SEO purposes. -->
-   <title> Creator's Starter Kit | Christmas Special </title>
-   <meta name="description" content="">
-   <meta name="keywords" content="">
+   <title> {{page.title}} </title>
+   <meta name="description" content="{{page.meta-description}}">
+   <meta name="keywords" content="{{page.meta-keywords}}">
 
    <!-- meta data to tell the browser that your devide is responsive -->
    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,21 +39,21 @@
    <link rel="shortcut icon" type="image/png" href="images/browser-icon-candy-and-the-king-01.png">
 
    <!--  Social media sharing META Tags -->
-    <meta property="og:title" content="Creator's Starter-Kit | Christmas Special">
-    <meta property="og:description" content="86% discount on the ultimate creator's starter-kit">
-    <meta property="og:image" content="images/kit.jpeg">
-    <meta property="og:url" content="candyandtheking.com/bundle">
-    <meta name="og:site_name" content="Candy and the King - Creator's Starter-Kit">
+    <meta property="og:title" content="{{page.socialtitle}}">
+    <meta property="og:description" content="{{page.socialmeta-description}}">
+    <meta property="og:image" content="{{page.socialfeatured-image_path}}">
+    <meta property="og:url" content="{{page.socialurl}}">
+    <meta name="og:site_name" content="{{page.site-name}}">
 
     <!-- twitter card -->
 
-    <meta name="twitter:card" content="" />
-    <meta name="twitter:description" content="" />
-    <meta name="twitter:title" content="" />
+    <meta name="twitter:card" content="{{page.summary}}" />
+    <meta name="twitter:description" content="{{page.twitter-description}}" />
+    <meta name="twitter:title" content="{{page.twitter-title}}" />
     <meta name="twitter:site" content="@candyandtheking" />
-    <meta name="twitter:image" content="images/kit.jpeg" />
+    <meta name="twitter:image" content="{{page.twitter-image}}" />
     <meta name="twitter:creator" content="@candyandtheking" />
-    <meta name="twitter:image:alt" content="Candy and the King are not only an influencer couple who travel and laugh a lot, but they are also web developers and content creators."
+    <meta name="twitter:image:alt" content="{{page.twitter-image-alt}}Candy and the King are not only an influencer couple who travel and laugh a lot, but they are also web developers and content creators."
 
 
   <!-- end of meta tags -->
@@ -93,15 +93,4 @@
 
 <body>
 
-        <!-- banner -->
-
-<section id="vid"class="  bundle padded-top grid-center">
-  <video width="100%" height="auto" autoplay="" muted="" loop="" playsinline="" poster="/images/poster.jpg">
-    <source src="/images/video7.mp4">
-  </video>
-  <div class="col-12 centered">
-        <a href="/bundle-shop" class="button">Shop now </a>
-      </div>
-      <div class="col-2 mob-hide"> </div>
-    </section>
-
+        {{content}}
