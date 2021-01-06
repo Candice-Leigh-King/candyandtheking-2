@@ -57,7 +57,7 @@
 
   .margin-top {margin-top:4rem;}
 
-  .capped-width { width: 80%; margin: auto;}
+  .capped-width { width: 50%; margin: auto;}
 
   .tall-50  {  min-height: 50vh;   }
   .tall-100 {  min-height: 100vh;  }
@@ -1090,7 +1090,9 @@ video {
   /* ----- FORMS --------------------------- */
 
   input,
-  textarea {
+  textarea,
+  select,
+  option {
     border-style: solid;
     border: 2px solid rgb(200, 200, 205);
     padding: 0.8em;
@@ -1100,10 +1102,13 @@ video {
     vertical-align: top;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(90,90,90);
   }
 
   input:focus,
-  textarea:focus {
+  textarea:focus,
+  select:focus,
+  option:focus  {
     outline: none;
     border: 2px solid #cde6ec;
     /* featured color */
