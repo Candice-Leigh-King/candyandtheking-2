@@ -1126,7 +1126,6 @@ video {
     font-family: "Playfair Display", serif;
   }
   input[type=submit] {
-      width: auto;
       display: block;
   }
   input:focus,
