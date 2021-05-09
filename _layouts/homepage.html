@@ -20,9 +20,9 @@
    <meta charset="utf-8">
 
    <!-- Meta data for SEO purposes. -->
-   <title> Work with us </title>
-   <meta name="description" content="Candy and the King ︳ @candy_and_the_king ︳ travel couple, web developers and content creators for luxurious hotels and beautiful destinations">
-   <meta name="keywords" content="travel, couple, photography, content creators, influencers, instagram, tiktok, facebook, thailand, web development">
+   <title> {{page.title}} </title>
+   <meta name="description" content="{{page.meta-description}}">
+   <meta name="keywords" content="{{page.meta-keywords}}">
 
    <!-- meta data to tell the browser that your devide is responsive -->
    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,21 +39,21 @@
    <link rel="shortcut icon" type="image/png" href="images/browser-icon-candy-and-the-king-01.png">
 
    <!--  Social media sharing META Tags -->
-    <meta property="og:title" content="couple who travels and laughs a lot">
-    <meta property="og:description" content="Candy and the King ︳ @candy_and_the_king ︳ Projects">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="www.candyandtheking.com/work-with-us">
-    <meta name="og:site_name" content="Candy and the King">
+    <meta property="og:title" content="{{page.socialtitle}}">
+    <meta property="og:description" content="{{page.socialmeta-description}}">
+    <meta property="og:image" content="{{page.socialfeatured-image_path}}">
+    <meta property="og:url" content="{{page.socialurl}}">
+    <meta name="og:site_name" content="{{page.site-name}}">
 
     <!-- twitter card -->
 
-    <meta name="twitter:card" content="" />
-    <meta name="twitter:description" content="Web Developers and Content Creators @candy_and_the_king" />
-    <meta name="twitter:title" content="Candy and the King" />
+    <meta name="twitter:card" content="{{page.summary}}" />
+    <meta name="twitter:description" content="{{page.twitter-description}}" />
+    <meta name="twitter:title" content="{{page.twitter-title}}" />
     <meta name="twitter:site" content="@candyandtheking" />
-    <meta name="twitter:image" content="/images/small/brandpartnership-01.jpg" />
+    <meta name="twitter:image" content="{{page.twitter-image}}" />
     <meta name="twitter:creator" content="@candyandtheking" />
-    <meta name="twitter:image:alt" content="Candy and the King are not only an influencer couple who travel and laugh a lot, but they are also web developers and content creators.Candy and the King are not only an influencer couple who travel and laugh a lot, but they are also web developers and content creators."
+    <meta name="twitter:image:alt" content="{{page.twitter-image-alt}}Candy and the King are not only an influencer couple who travel and laugh a lot, but they are also web developers and content creators."
 
 
   <!-- end of meta tags -->
@@ -75,6 +75,165 @@
 
   <!-- iconify icons -->
   <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+
+  <script type="text/javascript">
+// /<![CDATA[/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'candyandtheking.myshopify.com',
+      storefrontAccessToken: 'cab3cab316e153c92c8cc9afe856b9fd',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '6719994233013',
+        node: document.getElementById('product-component-1620493505885'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "font-family": "Playfair Display, serif",
+        ":hover": {
+          "background-color": "#b99e98"
+        },
+        "background-color": "#cdb0a9",
+        ":focus": {
+          "background-color": "#b99e98"
+        },
+        "border-radius": "0px",
+        "padding-left": "24px",
+        "padding-right": "24px"
+      }
+    },
+    "contents": {
+      "img": false,
+      "title": false,
+      "price": false
+    },
+    "text": {
+      "button": "Add to cart"
+    },
+    "googleFonts": [
+      "Playfair Display"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-family": "Playfair Display, serif",
+        ":hover": {
+          "background-color": "#b99e98"
+        },
+        "background-color": "#cdb0a9",
+        ":focus": {
+          "background-color": "#b99e98"
+        },
+        "border-radius": "0px",
+        "padding-left": "24px",
+        "padding-right": "24px"
+      }
+    },
+    "googleFonts": [
+      "Playfair Display"
+    ],
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Playfair Display, serif",
+        ":hover": {
+          "background-color": "#b99e98"
+        },
+        "background-color": "#cdb0a9",
+        ":focus": {
+          "background-color": "#b99e98"
+        },
+        "border-radius": "0px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    },
+    "googleFonts": [
+      "Playfair Display"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Playfair Display, serif",
+        "background-color": "#cdb0a9",
+        ":hover": {
+          "background-color": "#b99e98"
+        },
+        ":focus": {
+          "background-color": "#b99e98"
+        }
+      }
+    },
+    "googleFonts": [
+      "Playfair Display"
+    ]
+  }
+},
+      });
+    });
+  }
+})();
+/]]>/
+</script>
    <!-- Magnific Popup for lightbox galleries   -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
 
@@ -138,56 +297,7 @@
   </section>
 
         <!-- -header end  -->
-          <!-- -contact us  -->
-
-  <section class="grid-center bg-contact dark-bg margin-top padded" id="contact">
-    <div class="col-12-middle"><h2> let's chat </h2> </div>
-    <div class="grid">
-      <div class="col-2-middle mob-hide centered"> </div>
-
-      <div class="col-8-middle_sm-12 centered">
-         <p> We firmly believe in supporting sustainable and ethical brands, so if that's you, we'll be excited to chat. </p>
-        <p class=" wave centered"><img class="waves" src="images/wave.gif" alt="#"></p>
-       </div>
-
-       <div class="col-2-middle mob-hide centered"> </div>
-
-     </div>
-
-    <form method="post" action="/success.html" class="grid enquiry capped-width">
-
-        <div class="col-6_sm-12">
-          <input type="text" name="name" placeholder="Your Name">
-        </div>
-
-        <div class="col-6_sm-12">
-          <input type="email" name="_replyto" placeholder="Your Email">
-        </div>
-
-        <div class="col-12 centered">
-          <select class="centered" name="options" id="options" required="">
-            <option value="Interest">What are you interested in? </option>
-            <option value="content-creation"> Content Creation</option>
-            <option value="web-dev">Website Development</option>
-            <option value="collab">Collaboration</option>
-            <option value="other">Other</option>
-          </select>
-
-
-        <div>
-          <textarea name="message" placeholder="Your Message" class="input-text" required="Your Message"></textarea>
-          <label class="input-label">Your Message</label>
-        </div>
-        <div>
-          <input type="hidden" name="_to" value="hello@candyandtheking.com">
-          <input type="text" name="_gotcha" style="display: none;">
-          <input type="submit" value="Send" class="button">
-        </div>
-
-  </section>
-
-  <!-- -contact end  -->
-
+        {{content}}
 
         <!-- - footer - -->
 
