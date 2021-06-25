@@ -218,6 +218,11 @@
     color: white;
     border: none;}
 
+  .products h1 {
+    font-size: 1.8rem;
+    text-transform: lowercase;
+    font-weight: lighter;}
+
   .mock-ups{  background-size: contain;
     background-position: center;
     min-height: 100%;
@@ -226,7 +231,7 @@
 .products h4 {margin-bottom: 0.8rem; }
 @media(max-width:375px) {
   .products h5 {font-size: 0.8rem;}
-  .products h3 {font-size: 1.4rem;}
+  .products h1 {font-size: 1.4rem;}
 .products h4 {
   font-size: 1.2rem;
   font-weight: bold;}
@@ -234,9 +239,9 @@
 
 @media(max-width:768px) {
 
-.products h3 {font-size: 1.5rem;}}
+.products h1 {font-size: 1.5rem;}}
 
-.product h3 {
+.product h1 {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 2.3rem;}
 
