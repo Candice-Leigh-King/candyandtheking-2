@@ -222,7 +222,8 @@
     font-size: 1.8rem;
     text-transform: lowercase;
     font-weight: lighter;
-  color: #575757;}
+    color: #575757;
+    line-height: 1.2;}
 
   .mock-ups{  background-size: contain;
     background-position: center;
