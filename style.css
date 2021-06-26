@@ -221,7 +221,8 @@
   .products h1 {
     font-size: 1.8rem;
     text-transform: lowercase;
-    font-weight: lighter;}
+    font-weight: lighter;
+  color: #575757;}
 
   .mock-ups{  background-size: contain;
     background-position: center;
