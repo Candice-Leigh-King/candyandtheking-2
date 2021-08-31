@@ -231,6 +231,42 @@
     background-repeat: no-repeat;  }
 
 .products h4 {margin-bottom: 0.8rem; }
+
+/* shop end */
+
+/* the studio */
+
+.the-studio-banner
+  {
+  min-height: 100vh;
+  background-position: 40% 0%;
+  background-size: cover;
+  }
+
+.the-studio-button
+  {
+  text-decoration: none;
+  color: #d4adad;
+  border: 2px solid;
+  padding: 0.6rem;
+  min-width: 43vh;
+  border-radius: 20px;
+  margin-top: 1rem;
+  display: inline-block;
+  text-transform: lowercase;
+  font-size: 0.9rem;
+  font-weight: 500;
+  background: white;
+  font-family: 'Playfair Display', serif;
+  }
+
+.the-studio-button:hover
+  {
+  background: linear-gradient(192deg
+  ,#d4adad 80%, #cff1f1 79%);
+  color: white;
+  }
+
 @media(max-width:375px) {
   .products h5 {font-size: 0.8rem;}
   .products h1 {font-size: 1.4rem;}
