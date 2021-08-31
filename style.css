@@ -260,6 +260,8 @@
   font-family: 'Playfair Display', serif;
   }
 
+.the-studio-padded {padding-bottom: 10%;}  
+
 .the-studio-button:hover
   {
   background: linear-gradient(192deg
