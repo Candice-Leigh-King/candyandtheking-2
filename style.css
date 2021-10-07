@@ -198,7 +198,7 @@
     text-transform: uppercase;
     font-size: .8rem;
 }
-.category:active {
+.category .active {
     color: #ecdfdc;
 }
 
@@ -260,7 +260,7 @@
   font-family: 'Playfair Display', serif;
   }
 
-.the-studio-padded {padding-bottom: 20%;}  
+.the-studio-padded {padding-bottom: 20%;}
 
 .the-studio-button:hover
   {
