@@ -171,6 +171,20 @@
 
   /* bundle end */
 
+.christmas-bg {background-color: rgba(255,255,255, 0.5); }
+.christmas-bg-1 h2 {color: rgba(179,0,12, 0.5); }
+.christmas-bg-1 h3 {color: #4c7635;}
+
+.christmas-bg-1 .button  {
+  background: rgba(179,0,12, 0.5);
+  color: white;
+  border: none;}
+
+.christmas-bg-1 .button:hover {
+    background: rgba(76,118,53,0.5);
+    color: white;
+    border: none;}
+
   /* shop */
 .shop h3 {
   font-family: 'Roboto Condensed', sans-serif;
