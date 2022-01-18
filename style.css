@@ -1547,7 +1547,7 @@ footer .squiggle {margin-bottom: 5%;}
 } /* end media query */
 
 /* ---THIS IS A reverse QUERY */
-@media(min-width: 1024px)
+@media(min-width: 769px)
 {
   .desktop-hide {display: none;}
 
