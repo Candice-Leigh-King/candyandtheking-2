@@ -3,20 +3,20 @@
 
    <head>
 
- <!-- Meta Data -->
  <!-- Global site tag (gtag.js) - Google Analytics -->
-
- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PKB6S8JD57"></script>
- <script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159541257-1">
+</script>
+<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-PKB6S8JD57');
- </script>
+  gtag('config', 'UA-159541257-1');
+</script>
 
 
 
+<!-- Meta data for seo -->
    <meta charset="utf-8">
 
    <!-- Meta data for SEO purposes. -->
@@ -242,6 +242,25 @@
     <link rel="stylesheet" href="style.css"/>
 
 
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '1001904686577782');
+    fbq('track', 'PageView');
+    fbq('t')
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1001904686577782&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 
 <body>
@@ -253,7 +272,7 @@
       <img src="images/candyand-the-king-white-2.gif" alt="Candy and the King travel and content creator logo">
       </a>
     </div>
-    <nav class="col-8-middle right mob-hide">
+    <nav class="col-8-middle right header-hide">
       <a href="/#about"> About </a>
       <a href="/projects"> Passion Projects </a>
       <a href="/shop"> Shop</a>
@@ -300,11 +319,11 @@
           <!-- -banner- -->
 
   <section class="banner grid">
-    <div class="col-12-top christmas-bg-1 centered">
+    <!-- <div class="col-12-top christmas-bg-1 centered">
       <h2 class=" col-12 centered christmas-bg ">Christmas Special</h2>
       <h3 class="col-12 centered christmas-bg "> Save 50% on all products</h3>
       <a class="col-12 centered" href="/shop"> <p class="centered button"> shop now</p></a>
-    </div>
+    </div> -->
 
     <div class= "col-12-bottom banner-text">
     <h1> Candy and the King | We Travel and Laugh a Lot </h1>

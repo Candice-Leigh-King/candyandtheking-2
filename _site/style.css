@@ -1,11 +1,6 @@
 /*-----  CSS RESET  ------*/
  /* #efedec; */
 
-@font-face {
-  font-family: hellochristmas;
-  src: url(/fonts/hello-christmas.ttf);
-}
-
 
   * {
     padding: 0;
@@ -68,10 +63,7 @@
   .dark-bg      {  background-color: rgb(90, 90, 95);     }
   .light-bg     {  background-color: #ecdfdc; }
   .featured-bg  {  background-color: #ffdfc3;}
-  .bg-grey {background-image: url("/images/christmas-bg2.jpg");
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;}
+  .bg-grey {background-color: #efedec;}
   .bg-image {
     background-size: cover;
     background-position: center;}
@@ -512,7 +504,6 @@ background-size: cover;}
   /* ------- unique typography styles - adjust to suit your styles  --------- */
   .logo img {
     max-height: 4rem;
-    margin-top: 2.2rem;
   }
 
   .christmaslogo img {
@@ -737,7 +728,7 @@ background-size: cover;}
   position: fixed;
   line-height: 0.5;
   right: 2rem;
-  top: 2rem;
+  top: 0.6rem;
   z-index: 2;
   font-weight: 400;
   color: white;
@@ -1416,6 +1407,11 @@ text-transform: uppercase;}
   transition: all .35s;
 }
 
+@media(max-width:1023px) {
+
+.header-hide {display: none;}
+
+}
 
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
@@ -1567,13 +1563,6 @@ footer .squiggle {margin-bottom: 5%;}
   .service-banner h2 {
     font-size: 1.5rem;
   }
-
-  .bg-grey {
-    background-image: url(/images/christmas-bg2.jpg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: repeat;
-}
 
   h1 {
     font-size: 1.4rem;}
