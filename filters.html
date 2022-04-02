@@ -28,7 +28,7 @@ twitter-image-alt: Shop Candy and the King's best selling guides on how to colla
     {% for shop in filters_products %}
     <a class="col-4_sm-4_xs-12 padded" href="{{shop.url}}">
       <div class="card stat-cards grow light-bg">
-        <img src="{{shop.image}}" alt="{{ahop.alt}}">
+        <img src="{{shop.image}}" alt="{{shop.alt}}">
         <div class="padded-1">
           <h3>{{shop.product}}</h3>
           <p class="product-price"> {{shop.price}} <span class="compare-at-price">{{shop.discounted-price}} </span> </p>
