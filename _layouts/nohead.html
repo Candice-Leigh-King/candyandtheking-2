@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+ <html>
+
+   <head>
+
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159541257-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-159541257-1');
+</script>
+
+<!-- meta data -->
+   <meta charset="utf-8">
+
+   <!-- Meta data for SEO purposes. -->
+   <title> {{page.title}} </title>
+   <meta name="description" content="{{page.meta-description}}">
+   <meta name="keywords" content="{{page.meta-keywords}}">
+
+   <!-- meta data to tell the browser that your devide is responsive -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="robots" content="index, follow">
+   <meta name="mobile-web-app-capable" content="yes">
+   <meta name="apple-mobile-web-app-capable" content="yes">
+   <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+   <!-- meta data to verify web with google-->
+    <meta name="google-site-verification" content="OrXiqpLAYW66n20XsZIttR0LrQCm262zlzwy1tLRUYs" />
+
+
+   <!-- link to browser icon tag -->
+   <link rel="shortcut icon" type="image/png" href="/images/browser-icon-candy-and-the-king-01.png">
+
+   <!--  Social media sharing META Tags -->
+    <meta property="og:title" content="{{page.socialtitle}}">
+    <meta property="og:description" content="{{page.meta-social}}">
+    <meta property="og:image" content="{{page.socialfeatured-image_path}}">
+    <meta property="og:url" content="{{page.socialurl}}">
+    <meta name="og:site_name" content="{{page.site-name}}">
+
+    <!-- twitter card -->
+
+    <meta name="twitter:card" content="{{page.summary}}" />
+    <meta name="twitter:description" content="{{page.twitter-description}}" />
+    <meta name="twitter:title" content="{{page.twitter-title}}" />
+    <meta name="twitter:site" content="@candyandtheking" />
+    <meta name="twitter:image" content="{{page.twitter-image}}" />
+    <meta name="twitter:creator" content="@candyandtheking" />
+    <meta name="twitter:image:alt" content="{{page.twitter-image-alt}}Candy and the King are not only an influencer couple who travel and laugh a lot, but they are also web developers and content creators."
+
+
+  <!-- end of meta tags -->
+
+    <!-- Google Fonts -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!-- Gridlex -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css"></link>
+
+    <!-- Font Awesome Version 5 for Icons  -->
+
+  <!-- iconify icons -->
+  <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+   <!-- Magnific Popup for lightbox galleries   -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+
+    <!-- our own custom stylesheet -->
+
+    <link rel="stylesheet" href="/style.css"/>
+
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1001904686577782');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1001904686577782&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <script type="text/javascript">
+// /<![CDATA[/
+
+// 1st
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'candyandtheking.myshopify.com',
+      storefrontAccessToken: 'cab3cab316e153c92c8cc9afe856b9fd',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '{{page.product-id}}',
+        node: document.getElementById('{{page.product-component}}'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px",
+        }
+      },
+      "button": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-size": "2.5rem",
+        ":hover": {
+          "background-color": "#b6422d"
+        },
+        "background-color": "#dd533b",
+        ":focus": {
+          "background-color": "#b6422d"
+        },
+        "border-radius": "0px",
+        "padding-left": "50px",
+        "padding-right": "50px"
+      }
+    },
+    "buttonDestination": "checkout",
+    "contents": {
+      "img": false,
+      "title": false,
+      "price": false
+    },
+    "text": {
+      "button": "CLAIM your website"
+    },
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px",
+        }
+      },
+      "button": {
+        "font-family": "Roboto Condensed, sans-serif",
+        ":hover": {
+          "background-color": "#b6422d"
+        },
+        "background-color": "#b6422d",
+        ":focus": {
+          "background-color": "#dd533b"
+        },
+        "border-radius": "0px",
+        "padding-left": "24px",
+        "padding-right": "24px",
+      },
+      "title": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Roboto Condensed, sans-serif"
+      },
+      "compareAt": {
+        "font-family": "Roboto Condensed, sans-serif"
+      },
+      "unitPrice": {
+        "font-family": "Roboto Condensed, sans-serif"
+      },
+      "description": {
+        "font-family": "Roboto Condensed, sans-serif"
+      }
+    },
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ],
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ]
+  },
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Roboto Condensed, sans-serif",
+        ":hover": {
+          "background-color": "#b6422d"
+        },
+        "background-color": "#b6422d",
+        ":focus": {
+          "background-color": "#dd533b"
+        },
+        "border-radius": "0px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "notice": "Discount codes are added at checkout.",
+      "button": "Checkout"
+    },
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "background-color": "#dd533b",
+        ":hover": {
+          "background-color": "#b6422d"
+        },
+        ":focus": {
+          "background-color": "#b6422d"
+        }
+      }
+    },
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ]
+  }
+},
+      });
+    });
+  }
+})();
+        // /]]>/
+
+// 2nd
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'candyandtheking.myshopify.com',
+      storefrontAccessToken: 'cab3cab316e153c92c8cc9afe856b9fd',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '{{page.product-id}}',
+        node: document.getElementById('{{page.product-component-2}}'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px",
+        }
+      },
+      "button": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-size": "2.5rem",
+        ":hover": {
+          "background-color": "#b6422d"
+        },
+        "background-color": "#dd533b",
+        ":focus": {
+          "background-color": "#b6422d"
+        },
+        "border-radius": "0px",
+        "padding-left": "50px",
+        "padding-right": "50px"
+      }
+    },
+    "buttonDestination": "checkout",
+    "contents": {
+      "img": false,
+      "title": false,
+      "price": false
+    },
+    "text": {
+      "button": "buy now"
+    },
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px",
+        }
+      },
+      "button": {
+        "font-family": "Roboto Condensed, sans-serif",
+        ":hover": {
+          "background-color": "#b6422d"
+        },
+        "background-color": "#b6422d",
+        ":focus": {
+          "background-color": "#dd533b"
+        },
+        "border-radius": "0px",
+        "padding-left": "24px",
+        "padding-right": "24px",
+      },
+      "title": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Roboto Condensed, sans-serif"
+      },
+      "compareAt": {
+        "font-family": "Roboto Condensed, sans-serif"
+      },
+      "unitPrice": {
+        "font-family": "Roboto Condensed, sans-serif"
+      },
+      "description": {
+        "font-family": "Roboto Condensed, sans-serif"
+      }
+    },
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ],
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ]
+  },
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Roboto Condensed, sans-serif",
+        ":hover": {
+          "background-color": "#b6422d"
+        },
+        "background-color": "#b6422d",
+        ":focus": {
+          "background-color": "#dd533b"
+        },
+        "border-radius": "0px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "notice": "Discount codes are added at checkout.",
+      "button": "Checkout"
+    },
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "background-color": "#dd533b",
+        ":hover": {
+          "background-color": "#b6422d"
+        },
+        ":focus": {
+          "background-color": "#b6422d"
+        }
+      }
+    },
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ]
+  }
+},
+      });
+    });
+  }
+})();
+
+// 3rd
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'candyandtheking.myshopify.com',
+      storefrontAccessToken: 'cab3cab316e153c92c8cc9afe856b9fd',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '{{page.product-id}}',
+        node: document.getElementById('{{page.product-component-3}}'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px",
+        }
+      },
+      "button": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-size": "1.5rem",
+        ":hover": {
+          "background-color": "#b6422d"
+        },
+        "background-color": "#dd533b",
+        ":focus": {
+          "background-color": "#b6422d"
+        },
+        "border-radius": "0px",
+        "padding-left": "30px",
+        "padding-right": "30px"
+      }
+    },
+    "buttonDestination": "checkout",
+    "contents": {
+      "img": false,
+      "title": false,
+      "price": false
+    },
+    "text": {
+      "button": "buy for only $59 today"
+    },
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px",
+        }
+      },
+      "button": {
+        "font-family": "Roboto Condensed, sans-serif",
+        ":hover": {
+          "background-color": "#b6422d"
+        },
+        "background-color": "#b6422d",
+        ":focus": {
+          "background-color": "#dd533b"
+        },
+        "border-radius": "0px",
+        "padding-left": "24px",
+        "padding-right": "24px",
+      },
+      "title": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Roboto Condensed, sans-serif"
+      },
+      "compareAt": {
+        "font-family": "Roboto Condensed, sans-serif"
+      },
+      "unitPrice": {
+        "font-family": "Roboto Condensed, sans-serif"
+      },
+      "description": {
+        "font-family": "Roboto Condensed, sans-serif"
+      }
+    },
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ],
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ]
+  },
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Roboto Condensed, sans-serif",
+        ":hover": {
+          "background-color": "#b6422d"
+        },
+        "background-color": "#b6422d",
+        ":focus": {
+          "background-color": "#dd533b"
+        },
+        "border-radius": "0px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "notice": "Discount codes are added at checkout.",
+      "button": "Checkout"
+    },
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "background-color": "#dd533b",
+        ":hover": {
+          "background-color": "#b6422d"
+        },
+        ":focus": {
+          "background-color": "#b6422d"
+        }
+      }
+    },
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ]
+  }
+},
+      });
+    });
+  }
+})();
+
+// 4th
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'candyandtheking.myshopify.com',
+      storefrontAccessToken: 'cab3cab316e153c92c8cc9afe856b9fd',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '{{page.product-id}}',
+        node: document.getElementById('{{page.product-component-4}}'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "0px",
+        }
+      },
+      "button": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-size": "2.9rem",
+        ":hover": {
+          "background-color": "#b6422d"
+        },
+        "background-color": "#dd533b",
+        ":focus": {
+          "background-color": "#b6422d"
+        },
+        "border-radius": "0px",
+        "padding-left": "20px",
+        "padding-right": "20px"
+      }
+    },
+    "buttonDestination": "checkout",
+    "contents": {
+      "img": false,
+      "title": false,
+      "price": false
+    },
+    "text": {
+      "button": "last chance buy now"
+    },
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px",
+        }
+      },
+      "button": {
+        "font-family": "Roboto Condensed, sans-serif",
+        ":hover": {
+          "background-color": "#b6422d"
+        },
+        "background-color": "#b6422d",
+        ":focus": {
+          "background-color": "#dd533b"
+        },
+        "border-radius": "0px",
+        "padding-left": "24px",
+        "padding-right": "24px",
+      },
+      "title": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Roboto Condensed, sans-serif"
+      },
+      "compareAt": {
+        "font-family": "Roboto Condensed, sans-serif"
+      },
+      "unitPrice": {
+        "font-family": "Roboto Condensed, sans-serif"
+      },
+      "description": {
+        "font-family": "Roboto Condensed, sans-serif"
+      }
+    },
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ],
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ]
+  },
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Roboto Condensed, sans-serif",
+        ":hover": {
+          "background-color": "#b6422d"
+        },
+        "background-color": "#b6422d",
+        ":focus": {
+          "background-color": "#dd533b"
+        },
+        "border-radius": "0px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "notice": "Discount codes are added at checkout.",
+      "button": "Checkout"
+    },
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "background-color": "#dd533b",
+        ":hover": {
+          "background-color": "#b6422d"
+        },
+        ":focus": {
+          "background-color": "#b6422d"
+        }
+      }
+    },
+    "googleFonts": [
+      "Roboto Condensed, sans-serif"
+    ]
+  }
+},
+      });
+    });
+  }
+})();
+</script>
+</head>
+
+{{content}}
+</html>

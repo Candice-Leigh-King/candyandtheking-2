@@ -1,0 +1,31 @@
+---
+layout: categories
+title: Candy and the King ︳ @candy_and_the_king are content creators for luxurious hotels and beautiful destinations
+meta-keywords: travel, couple, photography, content creators, influencers, instagram, tiktok, facebook, thailand, web development, how to collab, hotel collab, guides, step-by-step
+socialtitle: couple who travels and laughs a lot
+socialmeta-description: Candy and the King ︳ @candy_and_the_king ︳ travel couple and content creators for luxurious hotels and beautiful destinations
+socialfeatured-image_path: /images/tropical.jpeg
+socialurl: www.candyandtheking.com/shop
+site-name: Candy and the King | Shop
+summery: summery
+twitter-description: Shop Candy and the King's best selling guide on how to collab with hotels, how to create a travel life and more travel filters for Lightroom
+twitter-title: Candy and the King | Shop
+twitter-image: /images/tropical.jpeg
+twitter-image-alt: Shop Candy and the King's best selling guides on how to collab with hotels, how to create a travel life and more travel filters for LightRoom
+---
+
+  <div class="grid-center padded-1 ">
+    {% assign free_products = site.products | where: 'free_products', true %}
+    {% for shop in free_products %}
+    <a class="col-4_sm-4_xs-12 padded" href="{{shop.url}}">
+      <div class="card stat-cards grow light-bg">
+        <img src="{{shop.image}}" alt="{{shop.alt}}">
+        <div class="padded-1">
+          <h3>{{shop.product}}</h3>
+          <p class="product-price"> {{shop.price}} <span class="compare-at-price">{{shop.discounted-price}} </span> </p>
+          <p>{{shop.description}}</p>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
