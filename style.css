@@ -107,7 +107,7 @@
 
 /* resources and funnles */
 
-.entry__specification {display: none !important;}
+.sib-form .entry__specification {display: none !important;}
 .sib-form {padding: 0% !important;}
 
 .resources h1
