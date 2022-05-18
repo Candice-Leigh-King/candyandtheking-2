@@ -24,7 +24,9 @@ twitter-image-alt: Shop Candy and the King's best selling guides on hotel collab
         <img src="{{shop.image}}" alt="{{shop.alt}}">
         <div class="padded-1">
           <h3>{{shop.product}}</h3>
-          <p class="product-price"> {{shop.price}} <span class="compare-at-price">{{shop.discounted-price}} </span> </p>
+          <!-- ADD THIS AFTER THE PAGE.PRICE FOR A STRIKE-THROUGH DISCOUNT PRICE
+               <span class="compare-at-price">{{page.discounted-price}}</span> -->
+          <p class="product-price"> {{shop.price}}  </p>
           <p>{{shop.description}}</p>
           <p class="stars"> ★★★★★  </p>
         </div>
