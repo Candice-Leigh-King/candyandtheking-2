@@ -107,6 +107,8 @@
 
 /* resources and funnles */
 
+.entry__specification {display: none !important;}
+
 .resources h1
   {
   font-family: 'Roboto Condensed';
