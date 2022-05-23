@@ -197,15 +197,20 @@
   font-weight: 600;
   }
 
-  .shopify-buy-frame--product {
-      display: inline-block !important;
-      max-width: 279px !important;
+.shopify-buy-frame--product
+  {
+  display: inline-block !important;
+  max-width: 279px !important;
   }
-  .shopify-buy__btn-wrapper {
-      margin-top: 0px !important;
+
+.shopify-buy__btn-wrapper
+  {
+  margin-top: 0px !important;
   }
-  .shopify-buy__btn-wrapper {
-      margin-top: 0px !important;
+
+.shopify-buy__btn-wrapper
+  {
+  margin-top: 0px !important;
   }
 
 .download-button
