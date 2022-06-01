@@ -107,6 +107,7 @@
 
 /* resources and funnles */
 
+
 .resources h1
   {
   font-family: 'Roboto Condensed';
@@ -116,7 +117,7 @@
   font-size: 2.5rem;
   }
 
-.resources span
+.red-bold
   {
   color: rgb(221, 83, 59);
   font-weight: 600;
@@ -196,15 +197,20 @@
   font-weight: 600;
   }
 
-  .shopify-buy-frame--product {
-      display: inline-block !important;
-      max-width: 279px !important;
+.shopify-buy-frame--product
+  {
+  display: inline-block !important;
+  max-width: 279px !important;
   }
-  .shopify-buy__btn-wrapper {
-      margin-top: 0px !important;
+
+.shopify-buy__btn-wrapper
+  {
+  margin-top: 0px !important;
   }
-  .shopify-buy__btn-wrapper {
-      margin-top: 0px !important;
+
+.shopify-buy__btn-wrapper
+  {
+  margin-top: 0px !important;
   }
 
 .download-button
@@ -1800,7 +1806,6 @@ footer .squiggle {margin-bottom: 5%;}
   font-size: 2.4rem;
   }
 
-.resources span {font-size: 2.4rem;}
 
 .resources h5
   {
