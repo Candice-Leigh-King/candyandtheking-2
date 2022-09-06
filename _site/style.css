@@ -173,7 +173,6 @@
 
 .red-border {border: 1px solid rgb(221, 83, 59);}
 
-  li {display: inline-block;}
 
 .resources .iconify
   {
@@ -641,7 +640,7 @@
   }
 
   .grow { transition: all .2s ease-in-out; }
-  .grow:hover { transform: scale(1.1); }
+  .grow:hover { transform: scale(1.01); }
 
   .not-bold   { font-weight: normal; } /* add this class to make headings not bold */
   .no-bullets { list-style:none; } /* Used to remove dot-points from a list */
