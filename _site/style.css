@@ -206,6 +206,12 @@
   {
   margin-top: 0px !important;
   }
+ 
+.shopify-buy__btn  
+  {
+  font-size: 24px !important;
+  padding: 7px 40px !important;
+  }
 
 .shopify-buy__btn-wrapper
   {
