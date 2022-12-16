@@ -27,7 +27,9 @@
     font-weight: 300;
     color: #3e3d3d;
 
-  }
+    }
+    
+  p, li { font-family:'Roboto Condensed', sans-serif;}
 
 
    /* this overrides the default padding and margin on gridlex elements */
@@ -275,7 +277,7 @@
   font-family:'Roboto Condensed', sans-serif;
   font-weight: lighter;
   text-transform: uppercase;
-  text-align: center;}
+}
 
   a {
     text-decoration: none;
@@ -413,7 +415,6 @@
   }
 
 @media(max-width:375px) {
-  .products h5 {font-size: 0.8rem;}
   .products h1 {font-size: 1.4rem;}
 .products h4 {
   font-size: 1.2rem;
@@ -800,6 +801,17 @@
   }
   nav a:hover {
     color: #abb8bf;
+  }
+
+  .christmas-bundle-2022 h3 
+  {
+  font-size: 1.4rem;
+  color: #b3000c;
+  } 
+
+  .christmas-bundle-2022 p, h4, h6
+  {
+  color: rgb(22,91,51);
   }
 
   .christmas-header a:hover{
