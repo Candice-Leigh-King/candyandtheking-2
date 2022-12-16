@@ -809,6 +809,10 @@
   color: #b3000c;
   } 
 
+  .red {color: #b3000c;}
+  .red:hover 
+  {color:rgba(179,0,12, 0.5)}
+
   .christmas-bundle-2022 p, h4, h6
   {
   color: rgb(22,91,51);
